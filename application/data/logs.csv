@@ -1,0 +1,619 @@
+1568566617.089576,    ,--main 'scraper.py'
+1568566617.0897207,    ,--get key
+1568566617.0898256,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568566624.1398144,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568566624.1412013,    , 
+1568566629.2544634,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568566629.2566173,    , 
+1568566636.9564075,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568566636.9607518,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 1"
+1568566636.9609666,    , 
+1568566642.5756326,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568566642.578112,    , 
+1568566648.37273,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568566648.3736787,    , 
+1568566652.8129835,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568566652.8150158,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 2"
+1568566652.815103,    , 
+1568566659.468506,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568566659.4705553,    , 
+1568566673.2833056,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568566673.2855809,    , 
+1568566677.379262,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568566677.3816571,    , 
+1568566684.0351546,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568566684.0377696,    , 
+1568566694.357099,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568566694.358364,    , 
+1568566698.6913052,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568566698.6937346,    , 
+1568566706.0223415,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568566706.0241249,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 3"
+1568566706.0242052,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 4"
+1568566706.0242665,    , 
+1568566709.8344707,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568566709.8371704,    ,"Shop ID: 21155035, Shop Name: LittleGoblinGarments, Active Listings: 27, Count: 5"
+1568566709.8372278,    ,"Shop ID: 21154863, Shop Name: HeArtsandDesign, Active Listings: 30, Count: 6"
+1568566709.837274,    , 
+1568566713.9911015,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568566713.9935796,    , 
+1568566718.3435678,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568566718.3458369,    ,"Shop ID: 21153881, Shop Name: BUNGKUSROKOK, Active Listings: 27, Count: 7"
+1568566718.3458946,    , 
+1568566726.0211544,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568566726.0223668,    , 
+1568566730.6252704,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568566730.6263707,    , 
+1568566734.6210458,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568566734.6222956,    ,"Shop ID: 21152823, Shop Name: TOEBROOTWORLD, Active Listings: 29, Count: 8"
+1568566734.6223962,    ,"Shop ID: 21152773, Shop Name: ArtesianHandcraft, Active Listings: 58, Count: 9"
+1568566734.6224632,    , 
+1568566742.9242702,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568566742.9264119,    ,"Shop ID: 21152547, Shop Name: INDIANBLOUSESStudio, Active Listings: 29, Count: 10"
+1568566742.9265008,    , 
+1568566742.9265685,    , 
+1568566742.9267826,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568566742.926865,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568566742.9269314,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568566742.9270196,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568566742.9271011,    ,"shop: LittleGoblinGarments, id: 21155035 active listings: 27"
+1568566742.9271638,    ,"shop: HeArtsandDesign, id: 21154863 active listings: 30"
+1568566742.9272432,    ,"shop: BUNGKUSROKOK, id: 21153881 active listings: 27"
+1568566742.9273057,    ,"shop: TOEBROOTWORLD, id: 21152823 active listings: 29"
+1568566742.927365,    ,"shop: ArtesianHandcraft, id: 21152773 active listings: 58"
+1568566742.9274242,    ,"shop: INDIANBLOUSESStudio, id: 21152547 active listings: 29"
+1568566742.9274814,    , 
+1568566742.9275382,    ,--save
+1568566742.9276268,    ,make ./data/shops_1568566742.csv
+1568566743.035165,    ,"--'main, analyzer.py'"
+1568566743.0352588,    ,--get key
+1568566743.035339,    ,--get recent run
+1568566743.0354106,    ,timestamp: 1568566742
+1568566743.0354629,    ,"--get shops, pv_timestamp: 1568566742"
+1568566743.0355613,    ,--threader
+1568566743.0373473,    ,"--word counter, shop_id: 21155263"
+1568566743.0376859,    ,"--word counter, shop_id: 21159771"
+1568566743.0379086,    ,"--word counter, shop_id: 21155083"
+1568566743.0381558,    ,"--word counter, shop_id: 21158587"
+1568566746.0284925,    ,API RESPONSE: 200
+1568566746.0299435,    ,API RESPONSE: 200
+1568566746.0322692,    ,API RESPONSE: 200
+1568566746.0323083,    ,--strip punctuation
+1568566746.0326352,    ,API RESPONSE: 200
+1568566746.0378466,    ,--strip punctuation
+1568566746.0419295,    ,--strip punctuation
+1568566746.0419917,    ,--filter gram
+1568566746.0462494,    ,--strip punctuation
+1568566746.0463097,    ,--filter gram
+1568566746.0474753,    ,--filter gram
+1568566746.047564,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568566746.0475843,    ,--filter gram
+1568566746.0479715,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}]"
+1568566746.0482614,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568566746.0486465,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568566746.0487797,    ,"--word counter, shop_id: 21155035"
+1568566746.0506284,    ,"--word counter, shop_id: 21154863"
+1568566746.0509908,    ,"--word counter, shop_id: 21152823"
+1568566746.0510647,    ,"--word counter, shop_id: 21153881"
+1568566748.8496568,    ,API RESPONSE: 200
+1568566748.8501012,    ,API RESPONSE: 200
+1568566748.8514454,    ,--strip punctuation
+1568566748.857873,    ,API RESPONSE: 200
+1568566748.8602471,    ,--strip punctuation
+1568566748.8603833,    ,--filter gram
+1568566748.8611803,    ,--strip punctuation
+1568566748.8615575,    ,API RESPONSE: 200
+1568566748.882936,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}]"
+1568566748.8986313,    ,--strip punctuation
+1568566748.9191935,    ,--filter gram
+1568566748.9246423,    ,"--word counter, shop_id: 21152773"
+1568566748.950028,    ,--filter gram
+1568566748.9501255,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'am', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}]"
+1568566748.9502008,    ,--filter gram
+1568566748.951086,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'you', 'count': 275}, {'word': 'your', 'count': 275}, {'word': 'to', 'count': 200}, {'word': 'the', 'count': 200}, {'word': '-', 'count': 175}]"
+1568566748.9515262,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'you', 'count': 300}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}]"
+1568566748.9515662,    ,"--word counter, shop_id: 21152547"
+1568566749.9660976,    ,API RESPONSE: 200
+1568566749.9680116,    ,--strip punctuation
+1568566749.9681726,    ,--filter gram
+1568566749.968342,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568566749.9696674,    ,API RESPONSE: 200
+1568566749.970386,    ,--strip punctuation
+1568566749.9966812,    ,--filter gram
+1568566749.9970033,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': '-', 'count': 175}, {'word': 'the', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'for', 'count': 100}, {'word': 'with', 'count': 100}]"
+1568566749.9976094,    ,--read
+1568566749.997688,    ,"[{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568566749.9977467,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568566749.9978118,    ,"[{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}]"
+1568566749.9978688,    ,"[{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568566749.9979198,    ,"[{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'am', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}]"
+1568566749.997976,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}]"
+1568566749.9980237,    ,"[{'shop_id': '21153881'}, {'word': 'you', 'count': 275}, {'word': 'your', 'count': 275}, {'word': 'to', 'count': 200}, {'word': 'the', 'count': 200}, {'word': '-', 'count': 175}]"
+1568566749.9980762,    ,"[{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'you', 'count': 300}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}]"
+1568566749.9981263,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568566749.998171,    ,"[{'shop_id': '21152547'}, {'word': '-', 'count': 175}, {'word': 'the', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'for', 'count': 100}, {'word': 'with', 'count': 100}]"
+1568566749.9982214,    ,--save
+1568566749.99827,    ,make ./data/distribution_1568566749.csv
+1568567919.9511786,    ,"--'main, analyzer.py'"
+1568567919.951286,    ,--get key
+1568567919.9513946,    ,--get recent run
+1568567919.951455,    ,timestamp: 1568566742
+1568567919.951494,    ,"--get shops, pv_timestamp: 1568566742"
+1568567919.9515805,    ,--threader
+1568567919.9533346,    ,"--word counter, shop_id: 21158587"
+1568567919.9537032,    ,"--word counter, shop_id: 21155263"
+1568567919.953746,    ,"--word counter, shop_id: 21155083"
+1568567919.9538026,    ,"--word counter, shop_id: 21159771"
+1568567922.589398,    ,API RESPONSE: 200
+1568567922.5935082,    ,API RESPONSE: 200
+1568567922.594677,    ,API RESPONSE: 200
+1568567922.5950997,    ,API RESPONSE: 200
+1568567922.596884,    ,--strip punctuation
+1568567922.5970857,    ,--strip punctuation
+1568567922.5971768,    ,--strip punctuation
+1568567922.6023135,    ,--strip punctuation
+1568567922.608776,    ,--filter gram
+1568567922.6088204,    ,--filter gram
+1568567922.6090617,    ,--filter gram
+1568567922.60912,    ,--filter gram
+1568567922.6091952,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568567922.6092267,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'svg', 'count': 50}, {'word': 'i', 'count': 50}]"
+1568567922.6096404,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568567922.6096766,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568567922.6099734,    ,"--word counter, shop_id: 21155035"
+1568567922.6111388,    ,"--word counter, shop_id: 21153881"
+1568567922.6111841,    ,"--word counter, shop_id: 21152823"
+1568567922.613049,    ,"--word counter, shop_id: 21154863"
+1568567923.5874016,    ,API RESPONSE: 200
+1568567923.5878737,    ,API RESPONSE: 200
+1568567923.5925786,    ,--strip punctuation
+1568567923.5970838,    ,--strip punctuation
+1568567923.602267,    ,--filter gram
+1568567923.6467285,    ,API RESPONSE: 200
+1568567923.662945,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'or', 'count': 6}, {'word': 'car', 'count': 6}, {'word': 'laptop', 'count': 5}, {'word': 'am', 'count': 5}, {'word': 'headband', 'count': 5}]"
+1568567923.6632378,    ,--filter gram
+1568567923.6637213,    ,--strip punctuation
+1568567923.6655078,    ,"--word counter, shop_id: 21152773"
+1568567923.6655827,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'you', 'count': 300}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}]"
+1568567923.6665754,    ,--filter gram
+1568567923.6671271,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'glass', 'count': 9}]"
+1568567923.6671686,    ,"--word counter, shop_id: 21152547"
+1568567923.8415065,    ,API RESPONSE: 200
+1568567923.844779,    ,--strip punctuation
+1568567923.8626153,    ,--filter gram
+1568567923.862758,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'you', 'count': 275}, {'word': 'the', 'count': 200}, {'word': 'to', 'count': 200}, {'word': '-', 'count': 175}]"
+1568567926.0207393,    ,API RESPONSE: 200
+1568567926.0212414,    ,API RESPONSE: 200
+1568567926.023783,    ,--strip punctuation
+1568567926.0442548,    ,--strip punctuation
+1568567926.0523198,    ,--filter gram
+1568567926.0523767,    ,--filter gram
+1568567926.0526528,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': 'the', 'count': 175}, {'word': '-', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'with', 'count': 100}, {'word': 'shipping', 'count': 100}]"
+1568567926.0530527,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568567926.070457,    ,--read
+1568567926.0705895,    ,"[{'shop_id': '21159771'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568567926.0706744,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568567926.0707443,    ,"[{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'svg', 'count': 50}, {'word': 'i', 'count': 50}]"
+1568567926.0708098,    ,"[{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568567926.0708942,    ,"[{'shop_id': '21155035'}, {'word': 'or', 'count': 6}, {'word': 'car', 'count': 6}, {'word': 'laptop', 'count': 5}, {'word': 'am', 'count': 5}, {'word': 'headband', 'count': 5}]"
+1568567926.070962,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'glass', 'count': 9}]"
+1568567926.0710256,    ,"[{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'you', 'count': 275}, {'word': 'the', 'count': 200}, {'word': 'to', 'count': 200}, {'word': '-', 'count': 175}]"
+1568567926.0710902,    ,"[{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'you', 'count': 300}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}]"
+1568567926.071179,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568567926.0712447,    ,"[{'shop_id': '21152547'}, {'word': 'the', 'count': 175}, {'word': '-', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'with', 'count': 100}, {'word': 'shipping', 'count': 100}]"
+1568567926.0712955,    ,--save
+1568567926.0713532,    ,make ./data/distribution_1568567926.csv
+1568567958.8028936,    ,"--'main, analyzer.py'"
+1568567958.80297,    ,--get key
+1568567958.8030605,    ,--get recent run
+1568567958.8031225,    ,timestamp: 1568566742
+1568567958.8031738,    ,"--get shops, pv_timestamp: 1568566742"
+1568567958.803269,    ,--threader
+1568567958.8049042,    ,"--word counter, shop_id: 21159771"
+1568567958.8049505,    ,"--word counter, shop_id: 21158587"
+1568567958.8052073,    ,"--word counter, shop_id: 21155263"
+1568567958.805276,    ,"--word counter, shop_id: 21155083"
+1568567959.717453,    ,API RESPONSE: 200
+1568567959.7195625,    ,--strip punctuation
+1568567959.7215755,    ,--filter gram
+1568567959.7238076,    ,API RESPONSE: 200
+1568567959.7240217,    ,API RESPONSE: 200
+1568567959.7253764,    ,API RESPONSE: 200
+1568567959.7267442,    ,--strip punctuation
+1568567959.726806,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568567959.7321744,    ,--strip punctuation
+1568567959.7363236,    ,--filter gram
+1568567959.7364032,    ,--strip punctuation
+1568567959.7385316,    ,--filter gram
+1568567959.7385736,    ,--filter gram
+1568567959.7386086,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568567959.7386594,    ,"--word counter, shop_id: 21155035"
+1568567959.7398827,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'files', 'count': 50}, {'word': 'to', 'count': 50}]"
+1568567959.7399392,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568567959.7401147,    ,"--word counter, shop_id: 21154863"
+1568567959.7410932,    ,"--word counter, shop_id: 21153881"
+1568567959.7411344,    ,"--word counter, shop_id: 21152823"
+1568567961.4810517,    ,API RESPONSE: 200
+1568567961.483457,    ,API RESPONSE: 200
+1568567961.485568,    ,API RESPONSE: 200
+1568567961.4868042,    ,--strip punctuation
+1568567961.4879618,    ,--strip punctuation
+1568567961.4897635,    ,API RESPONSE: 200
+1568567961.4898067,    ,--filter gram
+1568567961.489957,    ,--strip punctuation
+1568567961.5072858,    ,--filter gram
+1568567961.507364,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'or', 'count': 6}, {'word': 'car', 'count': 6}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}, {'word': 'am', 'count': 5}]"
+1568567961.5113072,    ,--strip punctuation
+1568567961.5116608,    ,--filter gram
+1568567961.5423706,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'glass', 'count': 9}]"
+1568567961.55315,    ,"--word counter, shop_id: 21152773"
+1568567961.5585096,    ,"--word counter, shop_id: 21152547"
+1568567961.5585883,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'to', 'count': 200}, {'word': 'the', 'count': 200}, {'word': '-', 'count': 175}, {'word': 'of', 'count': 150}]"
+1568567961.5942695,    ,--filter gram
+1568567961.5944526,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}]"
+1568567962.5033476,    ,API RESPONSE: 200
+1568567962.5042636,    ,API RESPONSE: 200
+1568567962.5055802,    ,--strip punctuation
+1568567962.5056245,    ,--strip punctuation
+1568567962.5333028,    ,--filter gram
+1568567962.5335634,    ,--filter gram
+1568567962.533766,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568567962.534072,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': '-', 'count': 175}, {'word': 'the', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'with', 'count': 100}, {'word': 'for', 'count': 100}]"
+1568567962.6318617,    ,--read
+1568567962.6319818,    ,"[{'shop_id': '21159771'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568567962.6320739,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568567962.6321568,    ,"[{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'files', 'count': 50}, {'word': 'to', 'count': 50}]"
+1568567962.6322343,    ,"[{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568567962.6323109,    ,"[{'shop_id': '21155035'}, {'word': 'or', 'count': 6}, {'word': 'car', 'count': 6}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}, {'word': 'am', 'count': 5}]"
+1568567962.632386,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'glass', 'count': 9}]"
+1568567962.6324623,    ,"[{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'to', 'count': 200}, {'word': 'the', 'count': 200}, {'word': '-', 'count': 175}, {'word': 'of', 'count': 150}]"
+1568567962.6325366,    ,"[{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}]"
+1568567962.63261,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568567962.6326857,    ,"[{'shop_id': '21152547'}, {'word': '-', 'count': 175}, {'word': 'the', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'with', 'count': 100}, {'word': 'for', 'count': 100}]"
+1568567962.6327543,    ,--save
+1568567962.6328197,    ,make ./data/distribution_1568567962.csv
+1568568000.0811687,    ,"--'main, analyzer.py'"
+1568568000.081254,    ,--get key
+1568568000.0813365,    ,--get recent run
+1568568000.0814087,    ,timestamp: 1568566742
+1568568000.0814605,    ,"--get shops, pv_timestamp: 1568566742"
+1568568000.0815542,    ,--threader
+1568568000.0835295,    ,"--word counter, shop_id: 21159771"
+1568568000.0836012,    ,"--word counter, shop_id: 21155263"
+1568568000.0840182,    ,"--word counter, shop_id: 21158587"
+1568568000.0841048,    ,"--word counter, shop_id: 21155083"
+1568568001.0576344,    ,API RESPONSE: 200
+1568568001.058617,    ,API RESPONSE: 200
+1568568001.0590243,    ,API RESPONSE: 200
+1568568001.0611527,    ,API RESPONSE: 200
+1568568001.0619214,    ,--strip punctuation
+1568568001.0620139,    ,--strip punctuation
+1568568001.0710218,    ,--strip punctuation
+1568568001.0710897,    ,--strip punctuation
+1568568001.074602,    ,--filter gram
+1568568001.074677,    ,--filter gram
+1568568001.0747955,    ,--filter gram
+1568568001.074983,    ,--filter gram
+1568568001.0750527,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568568001.0752757,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568568001.075316,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'files', 'count': 50}, {'word': 'to', 'count': 50}]"
+1568568001.0753794,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568001.0757632,    ,"--word counter, shop_id: 21155035"
+1568568001.0761137,    ,"--word counter, shop_id: 21153881"
+1568568001.0776265,    ,"--word counter, shop_id: 21154863"
+1568568001.0776792,    ,"--word counter, shop_id: 21152823"
+1568568002.443401,    ,API RESPONSE: 200
+1568568002.4439166,    ,API RESPONSE: 200
+1568568002.445365,    ,--strip punctuation
+1568568002.4479702,    ,--filter gram
+1568568002.4489477,    ,--strip punctuation
+1568568002.4493032,    ,API RESPONSE: 200
+1568568002.4529402,    ,API RESPONSE: 200
+1568568002.4530122,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}, {'word': 'am', 'count': 5}]"
+1568568002.4557173,    ,--filter gram
+1568568002.4559379,    ,--strip punctuation
+1568568002.4559944,    ,--strip punctuation
+1568568002.4662805,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}]"
+1568568002.49668,    ,"--word counter, shop_id: 21152773"
+1568568002.5289829,    ,"--word counter, shop_id: 21152547"
+1568568002.5402856,    ,--filter gram
+1568568002.5403755,    ,--filter gram
+1568568002.5406382,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'the', 'count': 200}, {'word': 'to', 'count': 200}, {'word': '-', 'count': 175}, {'word': 'of', 'count': 150}]"
+1568568002.5406804,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'your', 'count': 175}]"
+1568568006.0219407,    ,API RESPONSE: 200
+1568568006.0245826,    ,API RESPONSE: 200
+1568568006.025447,    ,--strip punctuation
+1568568006.0255134,    ,--strip punctuation
+1568568006.050894,    ,--filter gram
+1568568006.0511224,    ,--filter gram
+1568568006.0513735,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': 'the', 'count': 175}, {'word': '-', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'wedding', 'count': 100}, {'word': 'for', 'count': 100}]"
+1568568006.051416,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568568006.106996,    ,--read
+1568568006.1071942,    ,"[{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568006.10736,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': '-', 'count': 41}, {'word': 'logo', 'count': 36}]"
+1568568006.1075103,    ,"[{'shop_id': '21155263'}, {'word': '-', 'count': 100}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'files', 'count': 50}, {'word': 'to', 'count': 50}]"
+1568568006.107624,    ,"[{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568568006.107729,    ,"[{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}, {'word': 'am', 'count': 5}]"
+1568568006.1078339,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}]"
+1568568006.1079376,    ,"[{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'the', 'count': 200}, {'word': 'to', 'count': 200}, {'word': '-', 'count': 175}, {'word': 'of', 'count': 150}]"
+1568568006.108039,    ,"[{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'your', 'count': 175}]"
+1568568006.1081398,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568568006.1082423,    ,"[{'shop_id': '21152547'}, {'word': 'the', 'count': 175}, {'word': '-', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'wedding', 'count': 100}, {'word': 'for', 'count': 100}]"
+1568568006.108335,    ,--save
+1568568006.108427,    ,make ./data/distribution_1568568006.csv
+1568568026.2381923,    ,"--'main, analyzer.py'"
+1568568026.2382512,    ,--get key
+1568568026.2383246,    ,--get recent run
+1568568026.2383828,    ,timestamp: 1568566742
+1568568026.2384198,    ,"--get shops, pv_timestamp: 1568566742"
+1568568026.2384996,    ,--threader
+1568568026.240153,    ,"--word counter, shop_id: 21159771"
+1568568026.240584,    ,"--word counter, shop_id: 21155083"
+1568568026.2407434,    ,"--word counter, shop_id: 21155263"
+1568568026.2407827,    ,"--word counter, shop_id: 21158587"
+1568568027.0127068,    ,API RESPONSE: 200
+1568568027.0142744,    ,--strip punctuation
+1568568027.0179312,    ,--filter gram
+1568568027.0181983,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568027.0186057,    ,"--word counter, shop_id: 21155035"
+1568568027.03616,    ,API RESPONSE: 200
+1568568027.0376623,    ,--strip punctuation
+1568568027.0453115,    ,--filter gram
+1568568027.0454779,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568568027.0457106,    ,"--word counter, shop_id: 21154863"
+1568568027.0546193,    ,API RESPONSE: 200
+1568568027.055243,    ,--strip punctuation
+1568568027.0571394,    ,--filter gram
+1568568027.0572352,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'to', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}]"
+1568568027.057516,    ,"--word counter, shop_id: 21153881"
+1568568027.1733787,    ,API RESPONSE: 200
+1568568027.1746871,    ,--strip punctuation
+1568568027.1825264,    ,--filter gram
+1568568027.1826305,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568568027.182804,    ,"--word counter, shop_id: 21152823"
+1568568028.364464,    ,API RESPONSE: 200
+1568568028.36648,    ,API RESPONSE: 200
+1568568028.3683133,    ,API RESPONSE: 200
+1568568028.3690925,    ,--strip punctuation
+1568568028.3691971,    ,--strip punctuation
+1568568028.369247,    ,--strip punctuation
+1568568028.369464,    ,API RESPONSE: 200
+1568568028.3974526,    ,--filter gram
+1568568028.3975148,    ,--filter gram
+1568568028.3975494,    ,--strip punctuation
+1568568028.397594,    ,--filter gram
+1568568028.4239142,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'am', 'count': 5}, {'word': 'headband', 'count': 5}, {'word': 'laptop', 'count': 5}]"
+1568568028.4291165,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}]"
+1568568028.439816,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'the', 'count': 200}, {'word': 'to', 'count': 200}, {'word': 'of', 'count': 150}, {'word': 'please', 'count': 150}]"
+1568568028.4403818,    ,"--word counter, shop_id: 21152773"
+1568568028.4516625,    ,"--word counter, shop_id: 21152547"
+1568568028.464322,    ,--filter gram
+1568568028.4644763,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}]"
+1568568031.0899484,    ,API RESPONSE: 200
+1568568031.0904646,    ,--strip punctuation
+1568568031.090654,    ,--filter gram
+1568568031.0916293,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'of', 'count': 2}]"
+1568568031.0918057,    ,API RESPONSE: 200
+1568568031.0926816,    ,--strip punctuation
+1568568031.1202977,    ,--filter gram
+1568568031.120568,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': 'the', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'for', 'count': 100}, {'word': 'shipping', 'count': 100}, {'word': 'wedding', 'count': 100}]"
+1568568031.1647372,    ,--read
+1568568031.1648455,    ,"[{'shop_id': '21159771'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568031.1649432,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568568031.1650255,    ,"[{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'the', 'count': 75}, {'word': 'to', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}]"
+1568568031.1650972,    ,"[{'shop_id': '21155083'}, {'word': 'a', 'count': 47}, {'word': 'with', 'count': 45}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}]"
+1568568031.1651664,    ,"[{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'am', 'count': 5}, {'word': 'headband', 'count': 5}, {'word': 'laptop', 'count': 5}]"
+1568568031.165236,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'with', 'count': 24}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}]"
+1568568031.1653192,    ,"[{'shop_id': '21153881'}, {'word': 'your', 'count': 275}, {'word': 'the', 'count': 200}, {'word': 'to', 'count': 200}, {'word': 'of', 'count': 150}, {'word': 'please', 'count': 150}]"
+1568568031.1653888,    ,"[{'shop_id': '21152823'}, {'word': 'to', 'count': 425}, {'word': 'the', 'count': 350}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}]"
+1568568031.165455,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'of', 'count': 2}]"
+1568568031.165523,    ,"[{'shop_id': '21152547'}, {'word': 'the', 'count': 175}, {'word': 'to', 'count': 125}, {'word': 'for', 'count': 100}, {'word': 'shipping', 'count': 100}, {'word': 'wedding', 'count': 100}]"
+1568568031.1655846,    ,--save
+1568568031.165644,    ,make ./data/distribution_1568568031.csv
+1568568121.3254797,    ,"--'main, analyzer.py'"
+1568568121.325575,    ,--get key
+1568568121.325653,    ,--get recent run
+1568568121.3257241,    ,timestamp: 1568566742
+1568568121.3257756,    ,"--get shops, pv_timestamp: 1568566742"
+1568568121.3258672,    ,--threader
+1568568121.3274753,    ,"--word counter, shop_id: 21159771"
+1568568121.3279467,    ,"--word counter, shop_id: 21158587"
+1568568121.3282652,    ,"--word counter, shop_id: 21155263"
+1568568121.3283362,    ,"--word counter, shop_id: 21155083"
+1568568123.2751713,    ,API RESPONSE: 200
+1568568123.276545,    ,--strip punctuation
+1568568123.2799468,    ,API RESPONSE: 200
+1568568123.2812674,    ,--filter gram
+1568568123.28136,    ,--strip punctuation
+1568568123.289182,    ,API RESPONSE: 200
+1568568123.2896874,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568123.2897456,    ,--filter gram
+1568568123.2899323,    ,--strip punctuation
+1568568123.2929854,    ,"--word counter, shop_id: 21155035"
+1568568123.2931283,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568568123.2933471,    ,--filter gram
+1568568123.2946436,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'and', 'count': 15}, {'word': 'beaded', 'count': 15}]"
+1568568123.2947216,    ,"--word counter, shop_id: 21154863"
+1568568123.297224,    ,API RESPONSE: 200
+1568568123.297821,    ,--strip punctuation
+1568568123.2978675,    ,"--word counter, shop_id: 21153881"
+1568568123.3007288,    ,--filter gram
+1568568123.3008215,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'i', 'count': 50}, {'word': 'svgpng', 'count': 25}]"
+1568568123.3011487,    ,"--word counter, shop_id: 21152823"
+1568568126.0232038,    ,API RESPONSE: 200
+1568568126.0250669,    ,--strip punctuation
+1568568126.0310888,    ,--filter gram
+1568568126.0315337,    ,API RESPONSE: 200
+1568568126.0328453,    ,--strip punctuation
+1568568126.05155,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}, {'word': 'glass', 'count': 9}]"
+1568568126.0547533,    ,--filter gram
+1568568126.0560868,    ,API RESPONSE: 200
+1568568126.0573804,    ,"--word counter, shop_id: 21152773"
+1568568126.0574477,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'of', 'count': 150}, {'word': 'please', 'count': 150}, {'word': 'party', 'count': 100}, {'word': 'will', 'count': 100}, {'word': 'invitation', 'count': 100}]"
+1568568126.0592377,    ,--strip punctuation
+1568568126.0608745,    ,API RESPONSE: 200
+1568568126.0626395,    ,--filter gram
+1568568126.0627222,    ,"--word counter, shop_id: 21152547"
+1568568126.062883,    ,--strip punctuation
+1568568126.0833702,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'am', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}]"
+1568568126.127705,    ,--filter gram
+1568568126.1278846,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}, {'word': 'print', 'count': 150}, {'word': 'of', 'count': 150}]"
+1568568128.247611,    ,API RESPONSE: 200
+1568568128.2481213,    ,--strip punctuation
+1568568128.2483568,    ,API RESPONSE: 200
+1568568128.249388,    ,--strip punctuation
+1568568128.2763414,    ,--filter gram
+1568568128.2763915,    ,--filter gram
+1568568128.2765958,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'of', 'count': 2}]"
+1568568128.27663,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': 'shipping', 'count': 100}, {'word': 'for', 'count': 100}, {'word': 'wedding', 'count': 100}, {'word': 'festive', 'count': 75}, {'word': 'saree', 'count': 75}]"
+1568568128.3496845,    ,--read
+1568568128.3497958,    ,"[{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568128.3498843,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568568128.349969,    ,"[{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'i', 'count': 50}, {'word': 'svgpng', 'count': 25}]"
+1568568128.3500574,    ,"[{'shop_id': '21155083'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'and', 'count': 15}, {'word': 'beaded', 'count': 15}]"
+1568568128.3501503,    ,"[{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'am', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'headband', 'count': 5}]"
+1568568128.350246,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}, {'word': 'glass', 'count': 9}]"
+1568568128.3503394,    ,"[{'shop_id': '21153881'}, {'word': 'of', 'count': 150}, {'word': 'please', 'count': 150}, {'word': 'party', 'count': 100}, {'word': 'will', 'count': 100}, {'word': 'invitation', 'count': 100}]"
+1568568128.3504333,    ,"[{'shop_id': '21152823'}, {'word': 'and', 'count': 275}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}, {'word': 'print', 'count': 150}, {'word': 'of', 'count': 150}]"
+1568568128.3505256,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'of', 'count': 2}]"
+1568568128.3506188,    ,"[{'shop_id': '21152547'}, {'word': 'shipping', 'count': 100}, {'word': 'for', 'count': 100}, {'word': 'wedding', 'count': 100}, {'word': 'festive', 'count': 75}, {'word': 'saree', 'count': 75}]"
+1568568128.350704,    ,--save
+1568568128.3507826,    ,make ./data/distribution_1568568128.csv
+1568568208.722638,    ,"--'main, analyzer.py'"
+1568568208.7227018,    ,--get key
+1568568208.7227695,    ,--get recent run
+1568568208.7228217,    ,timestamp: 1568566742
+1568568208.7228527,    ,"--get shops, pv_timestamp: 1568566742"
+1568568208.7229438,    ,--threader
+1568568208.7252767,    ,"--word counter, shop_id: 21159771"
+1568568208.7257109,    ,"--word counter, shop_id: 21158587"
+1568568208.725897,    ,"--word counter, shop_id: 21155083"
+1568568208.7260027,    ,"--word counter, shop_id: 21155263"
+1568568209.6602502,    ,API RESPONSE: 200
+1568568209.662034,    ,API RESPONSE: 200
+1568568209.6659715,    ,API RESPONSE: 200
+1568568209.6684167,    ,--strip punctuation
+1568568209.671932,    ,--strip punctuation
+1568568209.6723702,    ,API RESPONSE: 200
+1568568209.6753464,    ,--strip punctuation
+1568568209.6764345,    ,--filter gram
+1568568209.6766994,    ,--strip punctuation
+1568568209.676751,    ,--filter gram
+1568568209.6768177,    ,--filter gram
+1568568209.681012,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568568209.681102,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'i', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'cutting', 'count': 25}]"
+1568568209.6814382,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568209.6817675,    ,--filter gram
+1568568209.681975,    ,"--word counter, shop_id: 21154863"
+1568568209.6820314,    ,"--word counter, shop_id: 21153881"
+1568568209.6836538,    ,"--word counter, shop_id: 21155035"
+1568568209.6841059,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568568209.6855533,    ,"--word counter, shop_id: 21152823"
+1568568210.5979395,    ,API RESPONSE: 200
+1568568210.5981355,    ,API RESPONSE: 200
+1568568210.59899,    ,--strip punctuation
+1568568210.599031,    ,--strip punctuation
+1568568210.5997488,    ,API RESPONSE: 200
+1568568210.6028612,    ,--strip punctuation
+1568568210.6029239,    ,--filter gram
+1568568210.6029913,    ,--filter gram
+1568568210.6339817,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'headband', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'ass', 'count': 4}]"
+1568568210.6443639,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}, {'word': 'glass', 'count': 9}]"
+1568568210.6668763,    ,"--word counter, shop_id: 21152773"
+1568568210.6669285,    ,"--word counter, shop_id: 21152547"
+1568568210.6679864,    ,--filter gram
+1568568210.6697605,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}, {'word': 'print', 'count': 150}, {'word': 'that', 'count': 125}, {'word': 'this', 'count': 125}]"
+1568568211.4126086,    ,API RESPONSE: 200
+1568568211.4133625,    ,--strip punctuation
+1568568211.4134755,    ,--filter gram
+1568568211.4135432,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568568211.428214,    ,API RESPONSE: 200
+1568568211.4300582,    ,--strip punctuation
+1568568211.4615703,    ,--filter gram
+1568568211.462053,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': 'wedding', 'count': 100}, {'word': 'shipping', 'count': 100}, {'word': 'festive', 'count': 75}, {'word': 'blouse', 'count': 75}, {'word': 'saree', 'count': 75}]"
+1568568211.4929314,    ,API RESPONSE: 200
+1568568211.4938364,    ,--strip punctuation
+1568568211.5141628,    ,--filter gram
+1568568211.5144055,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'please', 'count': 150}, {'word': 'invitation', 'count': 100}, {'word': 'party', 'count': 100}, {'word': 'will', 'count': 100}, {'word': 'as', 'count': 75}]"
+1568568211.5466878,    ,--read
+1568568211.5469854,    ,"[{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568211.5472417,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568568211.5474422,    ,"[{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'i', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'cutting', 'count': 25}]"
+1568568211.5475152,    ,"[{'shop_id': '21155083'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568568211.5475714,    ,"[{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'headband', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'ass', 'count': 4}]"
+1568568211.547623,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}, {'word': 'glass', 'count': 9}]"
+1568568211.5476818,    ,"[{'shop_id': '21153881'}, {'word': 'please', 'count': 150}, {'word': 'invitation', 'count': 100}, {'word': 'party', 'count': 100}, {'word': 'will', 'count': 100}, {'word': 'as', 'count': 75}]"
+1568568211.5477266,    ,"[{'shop_id': '21152823'}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}, {'word': 'print', 'count': 150}, {'word': 'that', 'count': 125}, {'word': 'this', 'count': 125}]"
+1568568211.54777,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568568211.5478134,    ,"[{'shop_id': '21152547'}, {'word': 'wedding', 'count': 100}, {'word': 'shipping', 'count': 100}, {'word': 'festive', 'count': 75}, {'word': 'blouse', 'count': 75}, {'word': 'saree', 'count': 75}]"
+1568568211.5478528,    ,--save
+1568568211.5478914,    ,make ./data/distribution_1568568211.csv
+1568568801.9739394,    ,"--'main, analyzer.py'"
+1568568801.974052,    ,--get key
+1568568801.9741745,    ,--get recent run
+1568568801.9742482,    ,timestamp: 1568566742
+1568568801.9743001,    ,"--get shops, pv_timestamp: 1568566742"
+1568568801.9744115,    ,--threader
+1568568801.9758756,    ,"--word counter, shop_id: 21155263"
+1568568801.9762743,    ,"--word counter, shop_id: 21159771"
+1568568801.976328,    ,"--word counter, shop_id: 21155083"
+1568568801.976592,    ,"--word counter, shop_id: 21158587"
+1568568803.845145,    ,API RESPONSE: 200
+1568568803.8480985,    ,API RESPONSE: 200
+1568568803.849211,    ,API RESPONSE: 200
+1568568803.8499851,    ,--strip punctuation
+1568568803.8502963,    ,API RESPONSE: 200
+1568568803.8503585,    ,--strip punctuation
+1568568803.8549893,    ,--strip punctuation
+1568568803.8566284,    ,--filter gram
+1568568803.858826,    ,--filter gram
+1568568803.859586,    ,--strip punctuation
+1568568803.859626,    ,--filter gram
+1568568803.8632755,    ,--filter gram
+1568568803.8633928,    ,"     Top Terms: [{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'contact', 'count': 25}, {'word': 'cutting', 'count': 25}]"
+1568568803.8634298,    ,"     Top Terms: [{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568803.8636026,    ,"     Top Terms: [{'shop_id': '21155083'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568568803.8636723,    ,"     Top Terms: [{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568568803.864172,    ,"--word counter, shop_id: 21155035"
+1568568803.865702,    ,"--word counter, shop_id: 21153881"
+1568568803.86598,    ,"--word counter, shop_id: 21154863"
+1568568803.8672366,    ,"--word counter, shop_id: 21152823"
+1568568806.0256474,    ,API RESPONSE: 200
+1568568806.0269387,    ,--strip punctuation
+1568568806.031713,    ,--filter gram
+1568568806.0334702,    ,"     Top Terms: [{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'glass', 'count': 9}, {'word': 'x', 'count': 9}]"
+1568568806.0342631,    ,API RESPONSE: 200
+1568568806.034647,    ,API RESPONSE: 200
+1568568806.0367541,    ,"--word counter, shop_id: 21152773"
+1568568806.0371792,    ,--strip punctuation
+1568568806.057603,    ,API RESPONSE: 200
+1568568806.0577343,    ,--strip punctuation
+1568568806.0607097,    ,--filter gram
+1568568806.062857,    ,"     Top Terms: [{'shop_id': '21153881'}, {'word': 'please', 'count': 150}, {'word': 'invitation', 'count': 100}, {'word': 'party', 'count': 100}, {'word': 'email', 'count': 75}, {'word': 'x', 'count': 50}]"
+1568568806.0629058,    ,--strip punctuation
+1568568806.0682838,    ,--filter gram
+1568568806.1029162,    ,"--word counter, shop_id: 21152547"
+1568568806.1081164,    ,"     Top Terms: [{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'headband', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'ass', 'count': 4}, {'word': 'fkn', 'count': 4}]"
+1568568806.1238787,    ,--filter gram
+1568568806.1243227,    ,"     Top Terms: [{'shop_id': '21152823'}, {'word': 'print', 'count': 150}, {'word': 'email', 'count': 100}, {'word': 'file', 'count': 100}, {'word': 'send', 'count': 75}, {'word': 'birthday', 'count': 75}]"
+1568568808.374111,    ,API RESPONSE: 200
+1568568808.3747234,    ,--strip punctuation
+1568568808.3749828,    ,--filter gram
+1568568808.3751302,    ,"     Top Terms: [{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568568808.3762012,    ,API RESPONSE: 200
+1568568808.3768759,    ,--strip punctuation
+1568568808.4017026,    ,--filter gram
+1568568808.4018543,    ,"     Top Terms: [{'shop_id': '21152547'}, {'word': 'wedding', 'count': 100}, {'word': 'shipping', 'count': 100}, {'word': 'blouse', 'count': 75}, {'word': 'saree', 'count': 75}, {'word': 'festive', 'count': 75}]"
+1568568808.4994812,    ,--read
+1568568808.4995775,    ,"[{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568568808.4996505,    ,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568568808.4997168,    ,"[{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'contact', 'count': 25}, {'word': 'cutting', 'count': 25}]"
+1568568808.4997807,    ,"[{'shop_id': '21155083'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568568808.4998422,    ,"[{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'headband', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'ass', 'count': 4}, {'word': 'fkn', 'count': 4}]"
+1568568808.4999025,    ,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'glass', 'count': 9}, {'word': 'x', 'count': 9}]"
+1568568808.4999633,    ,"[{'shop_id': '21153881'}, {'word': 'please', 'count': 150}, {'word': 'invitation', 'count': 100}, {'word': 'party', 'count': 100}, {'word': 'email', 'count': 75}, {'word': 'x', 'count': 50}]"
+1568568808.5000358,    ,"[{'shop_id': '21152823'}, {'word': 'print', 'count': 150}, {'word': 'email', 'count': 100}, {'word': 'file', 'count': 100}, {'word': 'send', 'count': 75}, {'word': 'birthday', 'count': 75}]"
+1568568808.5000966,    ,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]"
+1568568808.500156,    ,"[{'shop_id': '21152547'}, {'word': 'wedding', 'count': 100}, {'word': 'shipping', 'count': 100}, {'word': 'blouse', 'count': 75}, {'word': 'saree', 'count': 75}, {'word': 'festive', 'count': 75}]"
+1568568808.5002112,    ,--save
+1568568808.5002635,    ,make ./data/distribution_1568568808.csv

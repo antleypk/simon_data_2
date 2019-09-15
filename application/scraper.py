@@ -77,7 +77,7 @@ def pprint(string):
 
 def get_key():
     #gets key from .gitignored file
-    print('--get key')
+    pprint('--get key')
     with open("./secret.key") as f:
         key = f.readline()
         return key

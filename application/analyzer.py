@@ -2,10 +2,10 @@ import os, csv, requests, json, time, sys
 import scraper, config
 from multiprocessing.dummy import Pool as ThreadPool
 
-def get_recent_run():
+def get_recent_run(pv_path):
     #find the most timestamp of shops added to the archive 
     scraper.pprint('--get recent run')
-    files = os.listdir("./data")
+    files = os.listdir(pv_path)
     dates = []
     for f in files:
         sub_f = f[:-15]
@@ -22,10 +22,10 @@ def get_recent_run():
         scraper.pprint('Data Folder is missing shop lists') 
         return 0
 
-def get_shops(pv_timestamp, key):
+def get_shops(pv_timestamp, key, pv_path):
     #get the shop list from ./data/shops_'timestamp'
     scraper.pprint("--get shops, pv_timestamp: {}".format(pv_timestamp))
-    lcl_path = "./data/shops_{}.csv".format(pv_timestamp)
+    lcl_path = "{}/shops_{}.csv".format(pv_path,pv_timestamp)
     shops = []
     try:
         with open(lcl_path, newline='') as csvfile:
@@ -54,8 +54,41 @@ def get_shops(pv_timestamp, key):
         shops.append(shop)
         
     return shops
+
+def strip_punctuation(pv_list):
+    scraper.pprint("--strip punctuation")
+    clean_words = []   
+    for item in pv_list:
+        item = item.strip(',')
+        item = item.strip('.')
+        item = item.strip('\n')
+        clean_words.append(item)
+    return clean_words
+
+def get_unique_words(pv_list):
+    word_set = set()
+    for word in pv_list:
+        word_set.add(word)
+    return word_set
+
+def count_words(word_set, word_list):
+    word_gram  = []
+    #use word set to build set of unique words
+    for w_set in word_set:
+        tmp_word = w_set
+        count = 0
+        #count the occurances of the clean words
+        for w_word in word_list:
+            if w_set == w_word:
+                count+=1
+        word_frame = {}
+        word_frame['word'] = tmp_word
+        word_frame['count'] = count
+        word_gram.append(word_frame)
+    return word_gram
+
 def word_counter(shop):
-    print("shop: {}".format(shop))
+    print("shop id: {}, name: {}, listings: {}".format(shop['id'],shop['name'], shop['listings']))
     shop_id = shop['id']
     key = shop['key']
     #returns a distribution chart of the 5 most common terms related to one shop
@@ -78,49 +111,19 @@ def word_counter(shop):
             result_string+=str(result['title'])
             result_string+=str(result['description'])
         
-        result_list = result_string.lower().split(' ')
-
-        word_set = set()
-        clean_words = []
-        
-        #process data
-        for item in result_list:
-            item = item.strip(',')
-            item = item.strip('.')
-            item = item.strip('\n')
-            word_set.add(item)
-            clean_words.append(item)
-
+        result_list = result_string.lower().split(' ')    
+        clean_words = strip_punctuation(result_list)
+        word_set = get_unique_words(clean_words)
         return_list = []
         return_frame = {}
         return_frame["shop_id"] = shop_id
         return_list.append(return_frame)
-        word_gram  = []
-        #use word set to build set of unique words
-        for w_set in word_set:
-            tmp_word = w_set
-            count = 0
-            #count the occurances of the clean words
-            for w_word in clean_words:
-                if w_set == w_word:
-                    count+=1
-            word_frame = {}
-            word_frame['word'] = tmp_word
-            word_frame['count'] = count
-            word_gram.append(word_frame)
 
-        sorted_gram = sorted(word_gram, key = lambda i:i["count"], reverse=True)
+        word_gram = count_words(word_set, clean_words)
 
-        
-        r_count = 0
-        for i in sorted_gram:
-            if r_count < 5:
-                if not i["word"] == '':
-                    if not i["word"] == '–':
-                        return_list.append(i)
-                        r_count+=1
-            if r_count ==config.term_count:
-                break
+        for w in filter_gram(word_gram):
+            return_list.append(w)
+
         scraper.pprint("     Top Terms: {}".format(return_list))
         
 
@@ -133,18 +136,38 @@ def word_counter(shop):
     
     return return_list
 
+def filter_gram(pv_word_gram):
+    scraper.pprint("--filter gram")
+    return_list = []
+    sorted_gram = sorted(pv_word_gram, key = lambda i:i["count"], reverse=True) 
+    r_count = 0
+    tmp_list = ['','–', 'you', '-', 'your', 'a', 'to', 'the', 'with', 'is', 'of', 'and', 'am', 'for', 'of','able','about','across','after','all','almost','also','among','an','and','any','are','as','at','be','because','been','but','by','can','cannot','could','dear','did','do','does','either','else','ever','every','for','from','get','got','had','has','have','he','her','hers','him','his','how','however','i','if','in','into','is','it','its','just','least','let','like','likely','may','me','might','most','must','my','neither','no','nor','not','of','off','often','on','only','or','other','our','own','rather','said','say','says','she','should','since','so','some','than','that','the','their','them','then','there','these','they','this','tis','to','too','twas','us','wants','was','we','were','what','when','where','which','while','who','whom','why','will','with','would','yet','you','your']
+
+
+    for i in sorted_gram:
+        if r_count < 5:
+            if not i["word"] in tmp_list:                
+                return_list.append(i)
+                r_count+=1
+        if r_count ==config.term_count:
+            break
+
+    return return_list
+
+
+
 def read(pv_list):
     scraper.pprint("--read")
     for item in pv_list:
         scraper.pprint(item)
     return pv_list
 
-def save(distributions, path):
+def save(distributions, save_path):
     scraper.pprint("--save")
     s_t = '{}'.format(time.time())
     time_split = s_t.split('.')
     e = time_split[0]
-    lcl_path = path+'_{}.csv'.format(e)
+    lcl_path = save_path+'_{}.csv'.format(e)
     scraper.pprint('make {}'.format(lcl_path))
     with open(lcl_path, "w", newline="") as csvfile:
             writer = csv.writer(csvfile)
@@ -152,17 +175,16 @@ def save(distributions, path):
                 [
                     "id"
                     ,"shop_id"
-                    ,"distribution"
                     ,"e_time"
                 ]
             )
             lcl_id = 1
             for d in distributions:
-                count_f = {}
-                count_f['count'] = lcl_id
-                d.append(str(time.time()))
-                d.insert(0,count_f)    
-                writer.writerow(d)
+                lcl_list = []                
+                lcl_list.append(lcl_id)
+                lcl_list.append(d)
+                lcl_list.append(str(time.time()))   
+                writer.writerow(lcl_list)
                 lcl_id+=1    
 
 def threaded_counter(shops):
@@ -175,15 +197,16 @@ def main():
     scraper.pprint("--'main, analyzer.py'")
     key = scraper.get_key()
     distributions = []
-    save_path = './data/distribution'
+    data_path = config.data_path
+    save_path = config.save_path
     arg_length = len(sys.argv)
     if not arg_length == 2:
-        timestamp = get_recent_run()
+        timestamp = get_recent_run(data_path)
     if arg_length == 2:
         timestamp = sys.argv[1]
     scraper.pprint('timestamp: {}'.format(timestamp))
     if not timestamp == 0:
-        shops = get_shops(timestamp,key)
+        shops = get_shops(timestamp,key, data_path)
         lcl_distributions = threaded_counter(shops)
         for lcl in lcl_distributions:
             distributions.append(lcl)
