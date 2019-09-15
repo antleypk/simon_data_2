@@ -61,6 +61,10 @@ def strip_punctuation(pv_list):
     for item in pv_list:
         item = item.strip(',')
         item = item.strip('.')
+        item = item.strip('?')
+        item = item.strip('!')
+        item = item.strip('@')
+        item = item.strip('#')
         item = item.strip('\n')
         clean_words.append(item)
     return clean_words
@@ -114,14 +118,14 @@ def word_counter(shop):
         result_list = result_string.lower().split(' ')    
         clean_words = strip_punctuation(result_list)
         word_set = get_unique_words(clean_words)
+        
+        
         return_list = []
         return_frame = {}
         return_frame["shop_id"] = shop_id
         return_list.append(return_frame)
 
-        word_gram = count_words(word_set, clean_words)
-
-        for w in filter_gram(word_gram):
+        for w in filter_gram(count_words(word_set, clean_words)):
             return_list.append(w)
 
         scraper.pprint("     Top Terms: {}".format(return_list))
@@ -141,12 +145,9 @@ def filter_gram(pv_word_gram):
     return_list = []
     sorted_gram = sorted(pv_word_gram, key = lambda i:i["count"], reverse=True) 
     r_count = 0
-    tmp_list = ['','–', 'you', '-', 'your', 'a', 'to', 'the', 'with', 'is', 'of', 'and', 'am', 'for', 'of','able','about','across','after','all','almost','also','among','an','and','any','are','as','at','be','because','been','but','by','can','cannot','could','dear','did','do','does','either','else','ever','every','for','from','get','got','had','has','have','he','her','hers','him','his','how','however','i','if','in','into','is','it','its','just','least','let','like','likely','may','me','might','most','must','my','neither','no','nor','not','of','off','often','on','only','or','other','our','own','rather','said','say','says','she','should','since','so','some','than','that','the','their','them','then','there','these','they','this','tis','to','too','twas','us','wants','was','we','were','what','when','where','which','while','who','whom','why','will','with','would','yet','you','your']
-
-
     for i in sorted_gram:
         if r_count < 5:
-            if not i["word"] in tmp_list:                
+            if not i["word"] in config.stop_words:                
                 return_list.append(i)
                 r_count+=1
         if r_count ==config.term_count:

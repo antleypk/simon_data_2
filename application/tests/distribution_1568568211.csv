@@ -1,0 +1,11 @@
+id,shop_id,e_time
+1,"[{'shop_id': '21159771'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]",1568568211.5479424
+2,"[{'shop_id': '21158587'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 53}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]",1568568211.5479555
+3,"[{'shop_id': '21155263'}, {'word': 'halloween', 'count': 76}, {'word': 'i', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'cutting', 'count': 25}]",1568568211.5479655
+4,"[{'shop_id': '21155083'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]",1568568211.547974
+5,"[{'shop_id': '21155035'}, {'word': 'car', 'count': 6}, {'word': 'or', 'count': 6}, {'word': 'headband', 'count': 5}, {'word': 'laptop', 'count': 5}, {'word': 'ass', 'count': 4}]",1568568211.5479825
+6,"[{'shop_id': '21154863'}, {'word': 'painted', 'count': 34}, {'word': 'bottle', 'count': 14}, {'word': 'lightshand', 'count': 10}, {'word': 'x', 'count': 9}, {'word': 'glass', 'count': 9}]",1568568211.5479906
+7,"[{'shop_id': '21153881'}, {'word': 'please', 'count': 150}, {'word': 'invitation', 'count': 100}, {'word': 'party', 'count': 100}, {'word': 'will', 'count': 100}, {'word': 'as', 'count': 75}]",1568568211.5479991
+8,"[{'shop_id': '21152823'}, {'word': 'or', 'count': 225}, {'word': 'will', 'count': 175}, {'word': 'print', 'count': 150}, {'word': 'that', 'count': 125}, {'word': 'this', 'count': 125}]",1568568211.5480072
+9,"[{'shop_id': '21152773'}, {'word': 'mandala', 'count': 25}, {'word': 'arthandmade', 'count': 22}, {'word': 'artmandala', 'count': 20}, {'word': 'art', 'count': 3}, {'word': 'arthand', 'count': 2}]",1568568211.5480158
+10,"[{'shop_id': '21152547'}, {'word': 'wedding', 'count': 100}, {'word': 'shipping', 'count': 100}, {'word': 'festive', 'count': 75}, {'word': 'blouse', 'count': 75}, {'word': 'saree', 'count': 75}]",1568568211.548025
