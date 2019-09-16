@@ -66,6 +66,7 @@ def strip_punctuation(pv_list):
         item = item.strip('@')
         item = item.strip('#')
         item = item.strip('\n')
+        item = item.rstrip()
         clean_words.append(item)
     return clean_words
 
@@ -123,7 +124,7 @@ def word_counter(shop):
         return_list = []
         return_frame = {}
         return_frame["shop_id"] = shop_id
-        return_frame["shope_name"] = shop["name"]
+        return_frame["shop_name"] = shop["name"]
         return_list.append(return_frame)
 
         for w in filter_gram(count_words(word_set, clean_words)):
@@ -158,10 +159,13 @@ def filter_gram(pv_word_gram):
 
 
 
-def read_dicts(pv_list):
-    scraper.pprint("--read")
-    for item in pv_list:
-        scraper.pprint(item)
+def read_distros(pv_list):
+    scraper.pprint("--read distros")
+    scraper.pprint("== DISTRIBUTIONS ==")
+    for i in pv_list:
+        tmp_string = 'SHOP {}, ID {} = ({}:{}, {}:{}, {}:{}, {}:{}, {}:{})'.format(i[0]['shop_name'],i[0]['shop_id'], i[1]['word'], i[1]['count'],i[2]['word'], i[2]['count'], i[3]['word'], i[3]['count'], i[4]['word'], i[4]['count'], i[5]['word'], i[5]['count'])
+        scraper.pprint(tmp_string)
+    scraper.pprint(' ')
     return pv_list
 
 def save(distributions, save_path, pv_timestamp):
@@ -212,7 +216,7 @@ def main():
         lcl_distributions = threaded_counter(shops)
         for lcl in lcl_distributions:
             distributions.append(lcl)
-        save(read_dicts(distributions), save_path, timestamp)
+        save(read_distros(distributions), save_path, timestamp)
     else:
         scraper.pprint("Please run 'scraper.py' first.")
 
