@@ -65,7 +65,8 @@ def strip_punctuation(pv_list):
         item = item.strip('!')
         item = item.strip('@')
         item = item.strip('#')
-        item = item.strip('\n')
+        item = item.replace('\n','')
+        item = item.replace('\r','')
         item = item.rstrip()
         clean_words.append(item)
     return clean_words

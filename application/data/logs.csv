@@ -2756,3 +2756,1307 @@
 1568603316.045848,    , 
 1568603316.0459073,    ,--save
 1568603316.0459638,    ,make ./data/distribution_1568603316$1568603311.csv
+1568603445.9605532,    ,"--'main, analyzer.py'"
+1568603445.960656,    ,--get key
+1568603445.9607365,    ,--get recent run
+1568603445.960811,    ,timestamp: 1568603311
+1568603445.9608474,    ,"--get shops, pv_timestamp: 1568603311"
+1568603445.960926,    ,--threader
+1568603445.962713,    ,"--word counter, shop_id: 21165865"
+1568603445.9629962,    ,"--word counter, shop_id: 21165655"
+1568603445.9633405,    ,"--word counter, shop_id: 21163389"
+1568603445.9634063,    ,"--word counter, shop_id: 21162583"
+1568603449.1547134,    ,API RESPONSE: 200
+1568603449.1581478,    ,API RESPONSE: 200
+1568603449.1605382,    ,API RESPONSE: 200
+1568603449.161025,    ,API RESPONSE: 200
+1568603449.1611102,    ,--strip punctuation
+1568603449.1611958,    ,--strip punctuation
+1568603449.1698828,    ,--strip punctuation
+1568603449.170105,    ,--strip punctuation
+1568603449.170193,    ,--filter gram
+1568603449.195659,    ,--filter gram
+1568603449.1959202,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 134}, {'word': 'starbucks', 'count': 34}, {'word': 'mickey', 'count': 30}, {'word': 'disney', 'count': 30}, {'word': 'cut', 'count': 22}]"
+1568603449.1961367,    ,--filter gram
+1568603449.1963537,    ,--filter gram
+1568603449.1964006,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': '20', 'count': 25}, {'word': 'usa', 'count': 25}, {'word': 'sign\n*pre', 'count': 25}, {'word': 'diameter\n*made', 'count': 25}, {'word': '*powder', 'count': 25}]"
+1568603449.1966987,    ,"--word counter, shop_id: 21162039"
+1568603449.1969838,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'durable', 'count': 11}, {'word': 'polyester', 'count': 11}, {'word': 'fabric', 'count': 11}]"
+1568603449.1979263,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'inside', 'count': 8}, {'word': 'state', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568603449.1986349,    ,"--word counter, shop_id: 21159771"
+1568603449.1989515,    ,"--word counter, shop_id: 21157113"
+1568603449.1996465,    ,"--word counter, shop_id: 21158587"
+1568603450.0097508,    ,API RESPONSE: 200
+1568603450.01154,    ,API RESPONSE: 200
+1568603450.0140948,    ,--strip punctuation
+1568603450.0243511,    ,--strip punctuation
+1568603450.1240556,    ,--filter gram
+1568603450.129728,    ,API RESPONSE: 200
+1568603450.132785,    ,API RESPONSE: 200
+1568603450.1328619,    ,--filter gram
+1568603450.133632,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'print', 'count': 48}, {'word': 'created', 'count': 48}]"
+1568603450.133679,    ,--strip punctuation
+1568603450.1378477,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'file', 'count': 102}]"
+1568603450.1379144,    ,--strip punctuation
+1568603450.1403604,    ,--filter gram
+1568603450.1408381,    ,--filter gram
+1568603450.1411085,    ,"--word counter, shop_id: 21155263"
+1568603450.1411831,    ,"--word counter, shop_id: 21155083"
+1568603450.141563,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568603450.1416888,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568603451.19524,    ,API RESPONSE: 200
+1568603451.1958776,    ,API RESPONSE: 200
+1568603451.1989033,    ,--strip punctuation
+1568603451.2020767,    ,--strip punctuation
+1568603451.2021332,    ,--filter gram
+1568603451.20542,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'ghost', 'count': 25}, {'word': 'mistake', 'count': 25}]"
+1568603451.2054706,    ,--filter gram
+1568603451.2057853,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568603451.299383,    ,--read distros
+1568603451.299577,    ,== DISTRIBUTIONS ==
+1568603451.299755,    ,"SHOP DellaSvg, ID 21165865 = (svg:134, starbucks:34, mickey:30, disney:30, cut:22)"
+1568603451.299952,    ,"SHOP VintageStyleSigns, ID 21165655 = (20:25, usa:25, sign
+*pre:25, diameter
+*made:25, *powder:25)"
+1568603451.3001144,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, inside:8, state:8, printa:7, time:7)"
+1568603451.3002572,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, durable:11, polyester:11, fabric:11)"
+1568603451.3004122,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, file:102)"
+1568603451.300615,    ,"SHOP Roseobelle, ID 21159771 = (11oz:25, dishwasher:25, mughandmade:24, mug:24, safe.handmade:16)"
+1568603451.30079,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cricut:30)"
+1568603451.3009586,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, print:48, created:48)"
+1568603451.3011253,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, svg:50, files:50, ghost:25, mistake:25)"
+1568603451.3012922,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, necklace:13)"
+1568603451.3014605,    , 
+1568603451.301619,    ,--save
+1568603451.3017883,    ,make ./data/distribution_1568603451$1568603311.csv
+1568603570.883015,    ,"--'main, analyzer.py'"
+1568603570.883102,    ,--get key
+1568603570.883241,    ,--get recent run
+1568603570.8833573,    ,timestamp: 1568603311
+1568603570.8834302,    ,"--get shops, pv_timestamp: 1568603311"
+1568603570.8836086,    ,--threader
+1568603570.88575,    ,"--word counter, shop_id: 21165865"
+1568603570.8861861,    ,"--word counter, shop_id: 21165655"
+1568603570.886297,    ,"--word counter, shop_id: 21163389"
+1568603570.8865783,    ,"--word counter, shop_id: 21162583"
+1568603571.6579523,    ,API RESPONSE: 200
+1568603571.6600137,    ,--strip punctuation
+1568603571.6615129,    ,--filter gram
+1568603571.6616118,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': '20', 'count': 25}, {'word': 'ready', 'count': 25}, {'word': 'drilled', 'count': 25}, {'word': '*powder', 'count': 25}, {'word': 'sign*pre', 'count': 25}]"
+1568603571.661801,    ,"--word counter, shop_id: 21162039"
+1568603571.689427,    ,API RESPONSE: 200
+1568603571.690229,    ,--strip punctuation
+1568603571.6948354,    ,--filter gram
+1568603571.695082,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'state', 'count': 8}, {'word': 'inside', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568603571.695493,    ,"--word counter, shop_id: 21159771"
+1568603571.7142112,    ,API RESPONSE: 200
+1568603571.7154388,    ,--strip punctuation
+1568603571.7248375,    ,--filter gram
+1568603571.725695,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 134}, {'word': 'starbucks', 'count': 34}, {'word': 'mickey', 'count': 30}, {'word': 'disney', 'count': 30}, {'word': 'file', 'count': 22}]"
+1568603571.7261078,    ,"--word counter, shop_id: 21158587"
+1568603571.7786047,    ,API RESPONSE: 200
+1568603571.7798603,    ,--strip punctuation
+1568603571.808228,    ,--filter gram
+1568603571.8087566,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'durable', 'count': 11}, {'word': 'g/m²))\r.:', 'count': 11}, {'word': 'polyester', 'count': 11}]"
+1568603571.809263,    ,"--word counter, shop_id: 21157113"
+1568603572.6446507,    ,API RESPONSE: 200
+1568603572.6473486,    ,--strip punctuation
+1568603572.6512368,    ,API RESPONSE: 200
+1568603572.6513574,    ,--filter gram
+1568603572.6521053,    ,--strip punctuation
+1568603572.655548,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568603572.6557481,    ,--filter gram
+1568603572.6570816,    ,"--word counter, shop_id: 21155263"
+1568603572.6571126,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568603572.657315,    ,API RESPONSE: 200
+1568603572.6591756,    ,--strip punctuation
+1568603572.6902652,    ,"--word counter, shop_id: 21155083"
+1568603572.7041707,    ,--filter gram
+1568603572.7047236,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'print', 'count': 48}, {'word': 'created', 'count': 48}]"
+1568603572.7069135,    ,API RESPONSE: 200
+1568603572.708984,    ,--strip punctuation
+1568603572.7706218,    ,--filter gram
+1568603572.7709002,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'file', 'count': 102}]"
+1568603574.0761003,    ,API RESPONSE: 200
+1568603574.078858,    ,--strip punctuation
+1568603574.0792725,    ,API RESPONSE: 200
+1568603574.0864816,    ,--filter gram
+1568603574.0865366,    ,--strip punctuation
+1568603574.089567,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568603574.0898159,    ,--filter gram
+1568603574.0900402,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'fix', 'count': 25}, {'word': 'bundler', 'count': 25}]"
+1568603574.106363,    ,--read distros
+1568603574.106475,    ,== DISTRIBUTIONS ==
+1568603574.106578,    ,"SHOP DellaSvg, ID 21165865 = (svg:134, starbucks:34, mickey:30, disney:30, file:22)"
+1568603574.1066666,    ,"SHOP VintageStyleSigns, ID 21165655 = (20:25, ready:25, drilled:25, *powder:25, sign*pre:25)"
+1568603574.1067805,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, state:8, inside:8, printa:7, time:7)"
+1568603574.1068785,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, durable:11, g/m²)).::11, polyester:11)"
+1568603574.1069758,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, file:102)"
+1568603574.1070642,    ,"SHOP Roseobelle, ID 21159771 = (11oz:25, dishwasher:25, mug:24, mughandmade:24, safe.handmade:16)"
+1568603574.1071496,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cricut:30)"
+1568603574.107234,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, print:48, created:48)"
+1568603574.1073155,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, files:50, svg:50, fix:25, bundler:25)"
+1568603574.1073906,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, necklace:13)"
+1568603574.1074893,    , 
+1568603574.107564,    ,--save
+1568603574.1076472,    ,make ./data/distribution_1568603574$1568603311.csv
+1568603580.4016175,    ,"--'main, analyzer.py'"
+1568603580.4016883,    ,--get key
+1568603580.4018092,    ,--get recent run
+1568603580.401932,    ,timestamp: 1568603311
+1568603580.4019873,    ,"--get shops, pv_timestamp: 1568603311"
+1568603580.4021387,    ,--threader
+1568603580.4063575,    ,"--word counter, shop_id: 21162583"
+1568603580.4064267,    ,"--word counter, shop_id: 21165865"
+1568603580.406931,    ,"--word counter, shop_id: 21165655"
+1568603580.4072728,    ,"--word counter, shop_id: 21163389"
+1568603581.3697617,    ,API RESPONSE: 200
+1568603581.3724017,    ,API RESPONSE: 200
+1568603581.3724787,    ,--strip punctuation
+1568603581.3731735,    ,API RESPONSE: 200
+1568603581.3761125,    ,API RESPONSE: 200
+1568603581.3762462,    ,--strip punctuation
+1568603581.3762968,    ,--filter gram
+1568603581.3809502,    ,--strip punctuation
+1568603581.3813367,    ,--filter gram
+1568603581.402167,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'drilled', 'count': 25}, {'word': 'hang*measures', 'count': 25}, {'word': '*powder', 'count': 25}, {'word': 'holes', 'count': 25}, {'word': 'sign*pre', 'count': 25}]"
+1568603581.4022853,    ,--strip punctuation
+1568603581.4028165,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 134}, {'word': 'starbucks', 'count': 34}, {'word': 'mickey', 'count': 30}, {'word': 'disney', 'count': 30}, {'word': 'cut', 'count': 22}]"
+1568603581.4029496,    ,--filter gram
+1568603581.4033031,    ,"--word counter, shop_id: 21162039"
+1568603581.4094179,    ,"--word counter, shop_id: 21159771"
+1568603581.4105206,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'made', 'count': 11}, {'word': 'g/m²))\r.:', 'count': 11}, {'word': 'fabric', 'count': 11}]"
+1568603581.4114585,    ,--filter gram
+1568603581.4126587,    ,"--word counter, shop_id: 21158587"
+1568603581.412985,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'state', 'count': 8}, {'word': 'inside', 'count': 8}, {'word': 'time', 'count': 7}, {'word': 'printa', 'count': 7}]"
+1568603581.4140234,    ,"--word counter, shop_id: 21157113"
+1568603583.2977614,    ,API RESPONSE: 200
+1568603583.3011727,    ,API RESPONSE: 200
+1568603583.301738,    ,API RESPONSE: 200
+1568603583.305506,    ,API RESPONSE: 200
+1568603583.3063905,    ,--strip punctuation
+1568603583.3084111,    ,--strip punctuation
+1568603583.3393958,    ,--filter gram
+1568603583.3445687,    ,--strip punctuation
+1568603583.3497686,    ,--strip punctuation
+1568603583.384073,    ,--filter gram
+1568603583.3966212,    ,--filter gram
+1568603583.4122722,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568603583.4218793,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568603583.422101,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'file', 'count': 102}]"
+1568603583.4234447,    ,"--word counter, shop_id: 21155263"
+1568603583.4235044,    ,--filter gram
+1568603583.4252,    ,"--word counter, shop_id: 21155083"
+1568603583.4256332,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'created', 'count': 48}, {'word': 'print', 'count': 48}]"
+1568603584.3183744,    ,API RESPONSE: 200
+1568603584.319301,    ,API RESPONSE: 200
+1568603584.3193674,    ,--strip punctuation
+1568603584.322112,    ,--strip punctuation
+1568603584.3221507,    ,--filter gram
+1568603584.3252933,    ,--filter gram
+1568603584.3253384,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'etsy.==&gt;', 'count': 25}, {'word': 'issue', 'count': 25}]"
+1568603584.3256166,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'charm', 'count': 13}]"
+1568603584.4260707,    ,--read distros
+1568603584.42634,    ,== DISTRIBUTIONS ==
+1568603584.4266,    ,"SHOP DellaSvg, ID 21165865 = (svg:134, starbucks:34, mickey:30, disney:30, cut:22)"
+1568603584.426856,    ,"SHOP VintageStyleSigns, ID 21165655 = (drilled:25, hang*measures:25, *powder:25, holes:25, sign*pre:25)"
+1568603584.4271138,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, state:8, inside:8, time:7, printa:7)"
+1568603584.4273853,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, made:11, g/m²)).::11, fabric:11)"
+1568603584.4276407,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, file:102)"
+1568603584.4278772,    ,"SHOP Roseobelle, ID 21159771 = (11oz:25, dishwasher:25, mughandmade:24, mug:24, safe.handmade:16)"
+1568603584.4281476,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cut:30)"
+1568603584.428337,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, created:48, print:48)"
+1568603584.4285223,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, svg:50, files:50, etsy.==&gt;:25, issue:25)"
+1568603584.4287415,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, charm:13)"
+1568603584.4289072,    , 
+1568603584.429063,    ,--save
+1568603584.4292412,    ,make ./data/distribution_1568603584$1568603311.csv
+1568603637.371259,    ,--main 'scraper.py'
+1568603637.371351,    ,--get key
+1568603637.3714316,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568603639.4603007,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568603639.4611418,    ,"Shop ID: 21165865, Shop Name: DellaSvg, Active Listings: 26, Count: 1"
+1568603639.4612222,    ,"Shop ID: 21165655, Shop Name: VintageStyleSigns, Active Listings: 30, Count: 2"
+1568603639.4612846,    , 
+1568603643.7035909,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568603643.7067332,    , 
+1568603647.9814074,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568603647.9826267,    , 
+1568603651.8772287,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568603651.8789613,    ,"Shop ID: 21163389, Shop Name: Sherwoodmore, Active Listings: 27, Count: 3"
+1568603651.879092,    , 
+1568603655.3733819,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568603655.3745084,    ,"Shop ID: 21162583, Shop Name: PodMode, Active Listings: 31, Count: 4"
+1568603655.3746395,    , 
+1568603659.7099369,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568603659.7125444,    , 
+1568603664.1878607,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568603664.189368,    ,"Shop ID: 21162039, Shop Name: SmartSVGDesigns, Active Listings: 121, Count: 5"
+1568603664.1894412,    , 
+1568603669.7461588,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568603669.748609,    , 
+1568603674.4288619,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568603674.4324417,    , 
+1568603678.6721587,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568603678.6735363,    , 
+1568603687.1637566,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568603687.1675148,    , 
+1568603692.1717465,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568603692.1731143,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 6"
+1568603692.1731787,    , 
+1568603697.1774778,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568603697.1794336,    , 
+1568603701.0600328,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568603701.0619838,    , 
+1568603707.201504,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568603707.204322,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 7"
+1568603707.204471,    , 
+1568603711.3014374,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568603711.30348,    , 
+1568603715.5443563,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568603715.5458248,    , 
+1568603719.1292593,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568603719.1313088,    , 
+1568603725.6441882,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568603725.6460488,    ,"Shop ID: 21157113, Shop Name: ShirtsWorks, Active Listings: 26, Count: 8"
+1568603725.6461484,    , 
+1568603729.7173238,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568603729.7198873,    , 
+1568603735.3844905,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568603735.387346,    , 
+1568603738.9901893,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568603738.9927824,    , 
+1568603742.5681684,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568603742.5695734,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 9"
+1568603742.5696719,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 10"
+1568603742.56976,    , 
+1568603742.569833,    , 
+1568603742.569949,    ,"shop: DellaSvg, id: 21165865 active listings: 26"
+1568603742.5700078,    ,"shop: VintageStyleSigns, id: 21165655 active listings: 30"
+1568603742.5700622,    ,"shop: Sherwoodmore, id: 21163389 active listings: 27"
+1568603742.5701146,    ,"shop: PodMode, id: 21162583 active listings: 31"
+1568603742.5701668,    ,"shop: SmartSVGDesigns, id: 21162039 active listings: 121"
+1568603742.5702188,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568603742.5702693,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568603742.5703197,    ,"shop: ShirtsWorks, id: 21157113 active listings: 26"
+1568603742.5703697,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568603742.5704203,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568603742.5704691,    , 
+1568603742.5705187,    ,--save
+1568603742.5705943,    ,make ./data/shops_1568603742.csv
+1568603742.6825674,    ,"--'main, analyzer.py'"
+1568603742.6826556,    ,--get key
+1568603742.6827285,    ,--get recent run
+1568603742.6828094,    ,timestamp: 1568603742
+1568603742.6828454,    ,"--get shops, pv_timestamp: 1568603742"
+1568603742.6829283,    ,--threader
+1568603742.6846147,    ,"--word counter, shop_id: 21165865"
+1568603742.685179,    ,"--word counter, shop_id: 21165655"
+1568603742.6855881,    ,"--word counter, shop_id: 21162583"
+1568603742.6856713,    ,"--word counter, shop_id: 21163389"
+1568603743.496557,    ,API RESPONSE: 200
+1568603743.4990635,    ,API RESPONSE: 200
+1568603743.49961,    ,API RESPONSE: 200
+1568603743.5007894,    ,--strip punctuation
+1568603743.5008652,    ,--strip punctuation
+1568603743.5105083,    ,--strip punctuation
+1568603743.5236208,    ,--filter gram
+1568603743.528971,    ,--filter gram
+1568603743.5434234,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'diameter*made', 'count': 25}, {'word': 'guage', 'count': 25}, {'word': '*powder', 'count': 25}, {'word': '20', 'count': 25}, {'word': 'drilled', 'count': 25}]"
+1568603743.5437002,    ,API RESPONSE: 200
+1568603743.5437663,    ,--filter gram
+1568603743.5438294,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 134}, {'word': 'starbucks', 'count': 34}, {'word': 'mickey', 'count': 30}, {'word': 'disney', 'count': 30}, {'word': 'file', 'count': 22}]"
+1568603743.545784,    ,--strip punctuation
+1568603743.5459008,    ,"--word counter, shop_id: 21162039"
+1568603743.552267,    ,--filter gram
+1568603743.5523603,    ,"--word counter, shop_id: 21159771"
+1568603743.5530272,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'made', 'count': 11}, {'word': 'g/m²))\r.:', 'count': 11}, {'word': 'durable', 'count': 11}]"
+1568603743.5556505,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'state', 'count': 8}, {'word': 'inside', 'count': 8}, {'word': 'time', 'count': 7}, {'word': 'printa', 'count': 7}]"
+1568603743.5567846,    ,"--word counter, shop_id: 21158587"
+1568603743.5568545,    ,"--word counter, shop_id: 21157113"
+1568603744.3128905,    ,API RESPONSE: 200
+1568603744.3170378,    ,API RESPONSE: 200
+1568603744.3180568,    ,--strip punctuation
+1568603744.328352,    ,--strip punctuation
+1568603744.3750575,    ,--filter gram
+1568603744.3855457,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568603744.3956375,    ,--filter gram
+1568603744.3965287,    ,API RESPONSE: 200
+1568603744.3973505,    ,"--word counter, shop_id: 21155263"
+1568603744.398768,    ,--strip punctuation
+1568603744.400073,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'use', 'count': 102}]"
+1568603744.4007955,    ,"--word counter, shop_id: 21155083"
+1568603744.4008813,    ,--filter gram
+1568603744.4025142,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568603744.4246876,    ,API RESPONSE: 200
+1568603744.426286,    ,--strip punctuation
+1568603744.4738727,    ,--filter gram
+1568603744.4741561,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'print', 'count': 48}, {'word': 'created', 'count': 48}]"
+1568603745.336245,    ,API RESPONSE: 200
+1568603745.3375874,    ,API RESPONSE: 200
+1568603745.3388646,    ,--strip punctuation
+1568603745.33889,    ,--strip punctuation
+1568603745.344942,    ,--filter gram
+1568603745.3451467,    ,--filter gram
+1568603745.3452818,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568603745.34554,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'issue', 'count': 25}, {'word': 'svgpng', 'count': 25}]"
+1568603745.345806,    ,--read distros
+1568603745.3458533,    ,== DISTRIBUTIONS ==
+1568603745.3459044,    ,"SHOP DellaSvg, ID 21165865 = (svg:134, starbucks:34, mickey:30, disney:30, file:22)"
+1568603745.345949,    ,"SHOP VintageStyleSigns, ID 21165655 = (diameter*made:25, guage:25, *powder:25, 20:25, drilled:25)"
+1568603745.3459878,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, state:8, inside:8, time:7, printa:7)"
+1568603745.3460333,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, made:11, g/m²)).::11, durable:11)"
+1568603745.3460855,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, use:102)"
+1568603745.3461266,    ,"SHOP Roseobelle, ID 21159771 = (dishwasher:25, 11oz:25, mughandmade:24, mug:24, safe.handmade:16)"
+1568603745.3461633,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cut:30)"
+1568603745.3462033,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, print:48, created:48)"
+1568603745.3462377,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, svg:50, files:50, issue:25, svgpng:25)"
+1568603745.3462703,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, necklace:13)"
+1568603745.3463008,    , 
+1568603745.3463311,    ,--save
+1568603745.3463657,    ,make ./data/distribution_1568603745$1568603742.csv
+1568603757.9543884,    ,--main 'scraper.py'
+1568603757.9544818,    ,--get key
+1568603757.9545557,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568603762.3140378,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568603762.3162837,    ,"Shop ID: 21165865, Shop Name: DellaSvg, Active Listings: 26, Count: 1"
+1568603762.3163757,    ,"Shop ID: 21165655, Shop Name: VintageStyleSigns, Active Listings: 33, Count: 2"
+1568603762.316445,    , 
+1568603767.3203979,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568603767.321843,    , 
+1568603772.57746,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568603772.5821118,    , 
+1568603776.3721042,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568603776.3735213,    ,"Shop ID: 21163389, Shop Name: Sherwoodmore, Active Listings: 27, Count: 3"
+1568603776.3735824,    , 
+1568603780.6757226,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568603780.6785324,    ,"Shop ID: 21162583, Shop Name: PodMode, Active Listings: 31, Count: 4"
+1568603780.6786745,    , 
+1568603787.076646,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568603787.0783908,    , 
+1568603792.6140814,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568603792.6171887,    ,"Shop ID: 21162039, Shop Name: SmartSVGDesigns, Active Listings: 121, Count: 5"
+1568603792.617397,    , 
+1568603797.6220315,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568603797.6249778,    , 
+1568603802.618875,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568603802.6209838,    , 
+1568603807.5479388,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568603807.5521357,    , 
+1568603814.3582218,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568603814.3612525,    , 
+1568603818.666992,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568603818.669505,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 6"
+1568603818.669702,    , 
+1568603823.3738737,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568603823.3766484,    , 
+1568603826.9588206,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568603826.960823,    , 
+1568603830.5149333,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568603830.5172958,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 7"
+1568603830.5173793,    , 
+1568603834.3703449,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568603834.3729436,    , 
+1568603838.4377415,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568603838.4398584,    , 
+1568603842.4048898,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568603842.4065554,    , 
+1568603846.4557285,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568603846.4581017,    ,"Shop ID: 21157113, Shop Name: ShirtsWorks, Active Listings: 26, Count: 8"
+1568603846.4582686,    , 
+1568603854.6530313,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568603854.654572,    , 
+1568603859.0149522,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568603859.017086,    , 
+1568603863.5332706,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568603863.5378916,    , 
+1568603867.7620904,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568603867.7635407,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 9"
+1568603867.7636087,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 10"
+1568603867.7636464,    , 
+1568603867.7636786,    , 
+1568603867.7638304,    ,"shop: DellaSvg, id: 21165865 active listings: 26"
+1568603867.7638855,    ,"shop: VintageStyleSigns, id: 21165655 active listings: 33"
+1568603867.7639542,    ,"shop: Sherwoodmore, id: 21163389 active listings: 27"
+1568603867.7640107,    ,"shop: PodMode, id: 21162583 active listings: 31"
+1568603867.7640471,    ,"shop: SmartSVGDesigns, id: 21162039 active listings: 121"
+1568603867.7640922,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568603867.7641468,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568603867.764201,    ,"shop: ShirtsWorks, id: 21157113 active listings: 26"
+1568603867.7642431,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568603867.7642741,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568603867.7643027,    , 
+1568603867.764332,    ,--save
+1568603867.7643833,    ,make ./data/shops_1568603867.csv
+1568603867.885665,    ,"--'main, analyzer.py'"
+1568603867.8857458,    ,--get key
+1568603867.8859134,    ,--get recent run
+1568603867.8860345,    ,timestamp: 1568603867
+1568603867.8860972,    ,"--get shops, pv_timestamp: 1568603867"
+1568603867.8862321,    ,--threader
+1568603867.8902934,    ,"--word counter, shop_id: 21165865"
+1568603867.8909104,    ,"--word counter, shop_id: 21165655"
+1568603867.8909981,    ,"--word counter, shop_id: 21162583"
+1568603867.8914812,    ,"--word counter, shop_id: 21163389"
+1568603868.7371614,    ,API RESPONSE: 200
+1568603868.7382088,    ,--strip punctuation
+1568603868.7454152,    ,--filter gram
+1568603868.7467015,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'inside', 'count': 8}, {'word': 'state', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568603868.7473717,    ,API RESPONSE: 200
+1568603868.7479036,    ,"--word counter, shop_id: 21162039"
+1568603868.7496824,    ,--strip punctuation
+1568603868.7521522,    ,--filter gram
+1568603868.7524757,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'sign*pre', 'count': 25}, {'word': 'drilled', 'count': 25}, {'word': 'coated', 'count': 25}, {'word': 'ready', 'count': 25}, {'word': 'hang*measures', 'count': 25}]"
+1568603868.7555177,    ,API RESPONSE: 200
+1568603868.755646,    ,"--word counter, shop_id: 21159771"
+1568603868.7598066,    ,--strip punctuation
+1568603868.7603981,    ,API RESPONSE: 200
+1568603868.7662675,    ,--filter gram
+1568603868.7662845,    ,--strip punctuation
+1568603868.7904549,    ,--filter gram
+1568603868.7905912,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 124}, {'word': 'starbucks', 'count': 39}, {'word': 'mickey', 'count': 34}, {'word': 'disney', 'count': 30}, {'word': 'cut', 'count': 22}]"
+1568603868.791643,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'durable', 'count': 11}, {'word': 'polyester', 'count': 11}, {'word': 'made', 'count': 11}]"
+1568603868.792182,    ,"--word counter, shop_id: 21158587"
+1568603868.7927017,    ,"--word counter, shop_id: 21157113"
+1568603869.7066867,    ,API RESPONSE: 200
+1568603869.7071986,    ,--strip punctuation
+1568603869.7086482,    ,--filter gram
+1568603869.7088916,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568603869.709924,    ,API RESPONSE: 200
+1568603869.7099593,    ,"--word counter, shop_id: 21155263"
+1568603869.7114387,    ,--strip punctuation
+1568603869.717235,    ,--filter gram
+1568603869.7179244,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568603869.7201068,    ,API RESPONSE: 200
+1568603869.7219033,    ,"--word counter, shop_id: 21155083"
+1568603869.7234135,    ,--strip punctuation
+1568603869.7622762,    ,API RESPONSE: 200
+1568603869.7846124,    ,--strip punctuation
+1568603869.8216896,    ,--filter gram
+1568603869.8434525,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'file', 'count': 102}]"
+1568603869.8515046,    ,--filter gram
+1568603869.8518007,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'created', 'count': 48}, {'word': 'print', 'count': 48}]"
+1568603870.7789874,    ,API RESPONSE: 200
+1568603870.7810063,    ,--strip punctuation
+1568603870.7849631,    ,--filter gram
+1568603870.785192,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'contact', 'count': 25}, {'word': 'silhouette', 'count': 25}]"
+1568603870.7871196,    ,API RESPONSE: 200
+1568603870.7877212,    ,--strip punctuation
+1568603870.7913623,    ,--filter gram
+1568603870.7914824,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'charm', 'count': 13}]"
+1568603870.791721,    ,--read distros
+1568603870.7917666,    ,== DISTRIBUTIONS ==
+1568603870.7918098,    ,"SHOP DellaSvg, ID 21165865 = (svg:124, starbucks:39, mickey:34, disney:30, cut:22)"
+1568603870.791848,    ,"SHOP VintageStyleSigns, ID 21165655 = (sign*pre:25, drilled:25, coated:25, ready:25, hang*measures:25)"
+1568603870.7918842,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, inside:8, state:8, printa:7, time:7)"
+1568603870.791929,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, durable:11, polyester:11, made:11)"
+1568603870.7919683,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, file:102)"
+1568603870.7920053,    ,"SHOP Roseobelle, ID 21159771 = (dishwasher:25, 11oz:25, mug:24, mughandmade:24, safe.handmade:16)"
+1568603870.7920513,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cut:30)"
+1568603870.7921028,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, created:48, print:48)"
+1568603870.7921507,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, svg:50, files:50, contact:25, silhouette:25)"
+1568603870.7921975,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, charm:13)"
+1568603870.7922406,    , 
+1568603870.7922835,    ,--save
+1568603870.792331,    ,make ./data/distribution_1568603870$1568603867.csv
+1568603960.1912413,    ,"--'main, analyzer.py'"
+1568603960.191351,    ,--get key
+1568603960.191448,    ,--get recent run
+1568603960.19154,    ,timestamp: 1568603867
+1568603960.1915903,    ,"--get shops, pv_timestamp: 1568603867"
+1568603960.1916826,    ,--threader
+1568603960.1964467,    ,"--word counter, shop_id: 21165865"
+1568603960.196828,    ,"--word counter, shop_id: 21165655"
+1568603960.19724,    ,"--word counter, shop_id: 21163389"
+1568603960.1972785,    ,"--word counter, shop_id: 21162583"
+1568603960.9320803,    ,API RESPONSE: 200
+1568603960.9329782,    ,--strip punctuation
+1568603960.9357135,    ,--filter gram
+1568603960.935922,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'diameter*made', 'count': 25}, {'word': 'coated', 'count': 25}, {'word': '20', 'count': 25}, {'word': 'sign*pre', 'count': 25}, {'word': '11.75', 'count': 25}]"
+1568603960.9362411,    ,"--word counter, shop_id: 21162039"
+1568603961.02577,    ,API RESPONSE: 200
+1568603961.027062,    ,--strip punctuation
+1568603961.0348427,    ,--filter gram
+1568603961.0350535,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 124}, {'word': 'starbucks', 'count': 39}, {'word': 'mickey', 'count': 34}, {'word': 'disney', 'count': 30}, {'word': 'file', 'count': 22}]"
+1568603961.0352373,    ,"--word counter, shop_id: 21159771"
+1568603961.0408137,    ,API RESPONSE: 200
+1568603961.0417714,    ,--strip punctuation
+1568603961.047797,    ,--filter gram
+1568603961.0480335,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'inside', 'count': 8}, {'word': 'state', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568603961.0482974,    ,"--word counter, shop_id: 21158587"
+1568603961.0507886,    ,API RESPONSE: 200
+1568603961.0515397,    ,--strip punctuation
+1568603961.0728881,    ,--filter gram
+1568603961.0734704,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'g/m²)).:', 'count': 11}, {'word': 'polyester', 'count': 11}, {'word': 'fabric', 'count': 11}]"
+1568603961.073977,    ,"--word counter, shop_id: 21157113"
+1568603965.2519567,    ,API RESPONSE: 200
+1568603965.2527184,    ,API RESPONSE: 200
+1568603965.257604,    ,API RESPONSE: 200
+1568603965.257993,    ,API RESPONSE: 200
+1568603965.2580757,    ,--strip punctuation
+1568603965.2900398,    ,--strip punctuation
+1568603965.3018522,    ,--strip punctuation
+1568603965.3071153,    ,--strip punctuation
+1568603965.322567,    ,--filter gram
+1568603965.3541718,    ,--filter gram
+1568603965.3593373,    ,--filter gram
+1568603965.3595862,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568603965.3649979,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568603965.3747213,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'use', 'count': 102}]"
+1568603965.3752158,    ,--filter gram
+1568603965.3754375,    ,"--word counter, shop_id: 21155263"
+1568603965.3754914,    ,"--word counter, shop_id: 21155083"
+1568603965.3766966,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'print', 'count': 48}, {'word': 'created', 'count': 48}]"
+1568603967.2933557,    ,API RESPONSE: 200
+1568603967.294727,    ,API RESPONSE: 200
+1568603967.2947974,    ,--strip punctuation
+1568603967.3026254,    ,--filter gram
+1568603967.3026795,    ,--strip punctuation
+1568603967.3063552,    ,--filter gram
+1568603967.3064077,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'find', 'count': 25}, {'word': 'ghost', 'count': 25}]"
+1568603967.3070087,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'charm', 'count': 13}]"
+1568603967.3285427,    ,--read distros
+1568603967.328709,    ,== DISTRIBUTIONS ==
+1568603967.3288455,    ,"SHOP DellaSvg, ID 21165865 = (svg:124, starbucks:39, mickey:34, disney:30, file:22)"
+1568603967.3289557,    ,"SHOP VintageStyleSigns, ID 21165655 = (diameter*made:25, coated:25, 20:25, sign*pre:25, 11.75:25)"
+1568603967.3290648,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, inside:8, state:8, printa:7, time:7)"
+1568603967.329158,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, g/m²)).::11, polyester:11, fabric:11)"
+1568603967.329252,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, use:102)"
+1568603967.3293412,    ,"SHOP Roseobelle, ID 21159771 = (11oz:25, dishwasher:25, mug:24, mughandmade:24, safe.handmade:16)"
+1568603967.3294294,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cricut:30)"
+1568603967.329511,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, print:48, created:48)"
+1568603967.329591,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, files:50, svg:50, find:25, ghost:25)"
+1568603967.3296695,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, charm:13)"
+1568603967.3297424,    , 
+1568603967.3298175,    ,--save
+1568603967.3298988,    ,make ./data/distribution_1568603967$1568603867.csv
+1568603972.0264428,    ,--main 'scraper.py'
+1568603972.0265393,    ,--get key
+1568603972.0266132,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568603978.8178427,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568603978.8204596,    ,"Shop ID: 21165865, Shop Name: DellaSvg, Active Listings: 27, Count: 1"
+1568603978.8205695,    ,"Shop ID: 21165655, Shop Name: VintageStyleSigns, Active Listings: 35, Count: 2"
+1568603978.8206468,    , 
+1568603986.8381193,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568603986.8405538,    , 
+1568603991.267801,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568603991.2698026,    , 
+1568603996.9870818,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568603996.9891214,    ,"Shop ID: 21163389, Shop Name: Sherwoodmore, Active Listings: 27, Count: 3"
+1568603996.9892042,    , 
+1568604001.8381574,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568604001.839741,    , 
+1568604009.0197644,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568604009.0235488,    ,"Shop ID: 21162583, Shop Name: PodMode, Active Listings: 31, Count: 4"
+1568604009.0236843,    , 
+1568604018.967251,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568604018.9694643,    ,"Shop ID: 21162039, Shop Name: SmartSVGDesigns, Active Listings: 121, Count: 5"
+1568604018.969577,    , 
+1568604023.8206818,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568604023.8220904,    , 
+1568604028.5804884,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568604028.5842872,    , 
+1568604034.875132,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568604034.879945,    , 
+1568604039.4058008,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568604039.407872,    , 
+1568604046.3055444,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568604046.3092592,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 6"
+1568604046.3094285,    , 
+1568604051.1083126,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568604051.1123095,    , 
+1568604058.8986418,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568604058.90254,    , 
+1568604063.4578934,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568604063.459046,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 7"
+1568604063.459167,    , 
+1568604069.3662267,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568604069.369435,    , 
+1568604076.1031475,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568604076.1059084,    , 
+1568604080.8984957,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568604080.9015796,    , 
+1568604086.0746396,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568604086.078767,    ,"Shop ID: 21157113, Shop Name: ShirtsWorks, Active Listings: 26, Count: 8"
+1568604086.0789955,    , 
+1568604094.277557,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568604094.2822862,    , 
+1568604098.7336957,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568604098.7354274,    , 
+1568604106.851041,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568604106.8540106,    , 
+1568604114.7576149,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568604114.7591062,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 9"
+1568604114.759182,    , 
+1568604118.9124377,    ,"---- API response code: <Response [200]>, Limit: 1200, Offset: 1150"
+1568604118.9150193,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 10"
+1568604118.9151826,    , 
+1568604118.915301,    , 
+1568604118.915562,    ,"shop: DellaSvg, id: 21165865 active listings: 27"
+1568604118.9156637,    ,"shop: VintageStyleSigns, id: 21165655 active listings: 35"
+1568604118.9157557,    ,"shop: Sherwoodmore, id: 21163389 active listings: 27"
+1568604118.9158866,    ,"shop: PodMode, id: 21162583 active listings: 31"
+1568604118.9160533,    ,"shop: SmartSVGDesigns, id: 21162039 active listings: 121"
+1568604118.9162138,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568604118.9163723,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568604118.916522,    ,"shop: ShirtsWorks, id: 21157113 active listings: 26"
+1568604118.9166622,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568604118.916804,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568604118.9169476,    , 
+1568604118.917095,    ,--save
+1568604118.917297,    ,make ./data/shops_1568604118.csv
+1568604119.0223908,    ,"--'main, analyzer.py'"
+1568604119.0224857,    ,--get key
+1568604119.022596,    ,--get recent run
+1568604119.022724,    ,timestamp: 1568604118
+1568604119.022788,    ,"--get shops, pv_timestamp: 1568604118"
+1568604119.0228965,    ,--threader
+1568604119.0254445,    ,"--word counter, shop_id: 21165865"
+1568604119.0260153,    ,"--word counter, shop_id: 21163389"
+1568604119.0261562,    ,"--word counter, shop_id: 21165655"
+1568604119.0264459,    ,"--word counter, shop_id: 21162583"
+1568604119.7410715,    ,API RESPONSE: 200
+1568604119.7424924,    ,--strip punctuation
+1568604119.7464488,    ,--filter gram
+1568604119.7466855,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': '*powder', 'count': 25}, {'word': 'ready', 'count': 25}, {'word': 'holes', 'count': 25}, {'word': 'years', 'count': 25}, {'word': 'usa', 'count': 25}]"
+1568604119.7471032,    ,"--word counter, shop_id: 21162039"
+1568604119.848971,    ,API RESPONSE: 200
+1568604119.8505123,    ,--strip punctuation
+1568604119.858211,    ,--filter gram
+1568604119.860046,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 124}, {'word': 'starbucks', 'count': 39}, {'word': 'mickey', 'count': 34}, {'word': 'disney', 'count': 30}, {'word': 'cut', 'count': 22}]"
+1568604119.8605065,    ,API RESPONSE: 200
+1568604119.86128,    ,--strip punctuation
+1568604119.8612995,    ,"--word counter, shop_id: 21159771"
+1568604119.8680384,    ,--filter gram
+1568604119.8682067,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'inside', 'count': 8}, {'word': 'state', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568604119.8684056,    ,"--word counter, shop_id: 21158587"
+1568604119.9251692,    ,API RESPONSE: 200
+1568604119.926723,    ,--strip punctuation
+1568604119.9562082,    ,--filter gram
+1568604119.9568021,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'polyester', 'count': 11}, {'word': 'durable', 'count': 11}, {'word': 'fabric', 'count': 11}]"
+1568604119.9573374,    ,"--word counter, shop_id: 21157113"
+1568604122.949375,    ,API RESPONSE: 200
+1568604122.9500055,    ,API RESPONSE: 200
+1568604122.9535637,    ,API RESPONSE: 200
+1568604122.9549813,    ,--strip punctuation
+1568604122.9595394,    ,--strip punctuation
+1568604122.9596848,    ,--strip punctuation
+1568604122.9727309,    ,API RESPONSE: 200
+1568604122.9728754,    ,--filter gram
+1568604123.0054922,    ,--filter gram
+1568604123.0056148,    ,--strip punctuation
+1568604123.0241473,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568604123.0450068,    ,--filter gram
+1568604123.0664275,    ,"--word counter, shop_id: 21155263"
+1568604123.0941677,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'print', 'count': 48}, {'word': 'created', 'count': 48}]"
+1568604123.0942538,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568604123.1045146,    ,"--word counter, shop_id: 21155083"
+1568604123.1049423,    ,--filter gram
+1568604123.10662,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'use', 'count': 102}]"
+1568604124.9873092,    ,API RESPONSE: 200
+1568604124.989533,    ,API RESPONSE: 200
+1568604124.9908874,    ,--strip punctuation
+1568604124.9909596,    ,--strip punctuation
+1568604125.0009663,    ,--filter gram
+1568604125.0012457,    ,--filter gram
+1568604125.001536,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'fix', 'count': 25}, {'word': 'handled', 'count': 25}]"
+1568604125.0020018,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'charm', 'count': 13}]"
+1568604125.0023677,    ,--read distros
+1568604125.0024633,    ,== DISTRIBUTIONS ==
+1568604125.0025449,    ,"SHOP DellaSvg, ID 21165865 = (svg:124, starbucks:39, mickey:34, disney:30, cut:22)"
+1568604125.002603,    ,"SHOP VintageStyleSigns, ID 21165655 = (*powder:25, ready:25, holes:25, years:25, usa:25)"
+1568604125.002655,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, inside:8, state:8, printa:7, time:7)"
+1568604125.0027134,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, polyester:11, durable:11, fabric:11)"
+1568604125.002773,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, use:102)"
+1568604125.0028307,    ,"SHOP Roseobelle, ID 21159771 = (11oz:25, dishwasher:25, mug:24, mughandmade:24, safe.handmade:16)"
+1568604125.0028899,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cricut:30)"
+1568604125.0029716,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, print:48, created:48)"
+1568604125.003033,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, files:50, svg:50, fix:25, handled:25)"
+1568604125.0030832,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, charm:13)"
+1568604125.0031316,    , 
+1568604125.0031803,    ,--save
+1568604125.003235,    ,make ./data/distribution_1568604125$1568604118.csv
+1568604134.4836316,    ,--main 'scraper.py'
+1568604134.4837162,    ,--get key
+1568604134.483819,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568604139.1770687,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568604139.178009,    ,"Shop ID: 21165865, Shop Name: DellaSvg, Active Listings: 27, Count: 1"
+1568604139.178092,    ,"Shop ID: 21165655, Shop Name: VintageStyleSigns, Active Listings: 35, Count: 2"
+1568604139.178152,    , 
+1568604142.8601072,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568604142.861633,    , 
+1568604146.350207,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568604146.3543296,    , 
+1568604149.7870533,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568604149.7908547,    ,"Shop ID: 21163389, Shop Name: Sherwoodmore, Active Listings: 27, Count: 3"
+1568604149.7910562,    , 
+1568604153.6687446,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568604153.6713996,    , 
+1568604158.2303298,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568604158.2329738,    ,"Shop ID: 21162583, Shop Name: PodMode, Active Listings: 31, Count: 4"
+1568604158.2331645,    , 
+1568604161.8608143,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568604161.8651772,    ,"Shop ID: 21162039, Shop Name: SmartSVGDesigns, Active Listings: 121, Count: 5"
+1568604161.8654103,    , 
+1568604166.135182,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568604166.1371095,    , 
+1568604169.8093154,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568604169.8128698,    , 
+1568604176.1352496,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568604176.1383104,    , 
+1568604181.136007,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568604181.1371017,    , 
+1568604188.3263023,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568604188.3293164,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 6"
+1568604188.329462,    , 
+1568604192.9392068,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568604192.9431043,    , 
+1568604196.5295434,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568604196.531134,    , 
+1568604200.111875,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568604200.114209,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 7"
+1568604200.1143646,    , 
+1568604204.8725512,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568604204.8765633,    , 
+1568604208.4116268,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568604208.41277,    , 
+1568604212.1364095,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568604212.1408002,    , 
+1568604217.0084338,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568604217.0119228,    ,"Shop ID: 21157113, Shop Name: ShirtsWorks, Active Listings: 26, Count: 8"
+1568604217.0120852,    , 
+1568604220.5662248,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568604220.5694933,    , 
+1568604225.3391762,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568604225.340466,    , 
+1568604229.7085686,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568604229.7099745,    , 
+1568604233.5297294,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568604233.5322552,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 9"
+1568604233.5323782,    , 
+1568604237.81085,    ,"---- API response code: <Response [200]>, Limit: 1200, Offset: 1150"
+1568604237.811975,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 10"
+1568604237.8120272,    , 
+1568604237.8120644,    , 
+1568604237.81215,    ,"shop: DellaSvg, id: 21165865 active listings: 27"
+1568604237.8122041,    ,"shop: VintageStyleSigns, id: 21165655 active listings: 35"
+1568604237.8122542,    ,"shop: Sherwoodmore, id: 21163389 active listings: 27"
+1568604237.8123004,    ,"shop: PodMode, id: 21162583 active listings: 31"
+1568604237.8123815,    ,"shop: SmartSVGDesigns, id: 21162039 active listings: 121"
+1568604237.8124373,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568604237.8124888,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568604237.8125389,    ,"shop: ShirtsWorks, id: 21157113 active listings: 26"
+1568604237.8125875,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568604237.8126357,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568604237.812683,    , 
+1568604237.8127308,    ,--save
+1568604237.8128068,    ,make ./data/shops_1568604237.csv
+1568604237.9227567,    ,"--'main, analyzer.py'"
+1568604237.9228435,    ,--get key
+1568604237.9229176,    ,--get recent run
+1568604237.9230318,    ,timestamp: 1568604237
+1568604237.923091,    ,"--get shops, pv_timestamp: 1568604237"
+1568604237.923189,    ,--threader
+1568604237.9272034,    ,"--word counter, shop_id: 21165865"
+1568604237.9272287,    ,"--word counter, shop_id: 21162583"
+1568604237.9278898,    ,"--word counter, shop_id: 21163389"
+1568604237.9280438,    ,"--word counter, shop_id: 21165655"
+1568604239.131681,    ,API RESPONSE: 200
+1568604239.1360931,    ,--strip punctuation
+1568604239.1402988,    ,--filter gram
+1568604239.1406944,    ,API RESPONSE: 200
+1568604239.1407423,    ,API RESPONSE: 200
+1568604239.1424115,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'ready', 'count': 25}, {'word': 'guage', 'count': 25}, {'word': '20', 'count': 25}, {'word': '11.75', 'count': 25}, {'word': 'drilled', 'count': 25}]"
+1568604239.1424954,    ,--strip punctuation
+1568604239.1426783,    ,--strip punctuation
+1568604239.1547732,    ,"--word counter, shop_id: 21162039"
+1568604239.1553519,    ,--filter gram
+1568604239.1570535,    ,--filter gram
+1568604239.157505,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'state', 'count': 8}, {'word': 'inside', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568604239.1575592,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 124}, {'word': 'starbucks', 'count': 39}, {'word': 'mickey', 'count': 34}, {'word': 'disney', 'count': 30}, {'word': 'file', 'count': 22}]"
+1568604239.1582937,    ,"--word counter, shop_id: 21159771"
+1568604239.1583953,    ,"--word counter, shop_id: 21158587"
+1568604239.1624014,    ,API RESPONSE: 200
+1568604239.1631286,    ,--strip punctuation
+1568604239.1838138,    ,--filter gram
+1568604239.1841378,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'durable', 'count': 11}, {'word': 'g/m²)).:', 'count': 11}, {'word': 'made', 'count': 11}]"
+1568604239.1844835,    ,"--word counter, shop_id: 21157113"
+1568604241.7332892,    ,API RESPONSE: 200
+1568604241.738298,    ,--strip punctuation
+1568604241.7409651,    ,API RESPONSE: 200
+1568604241.741562,    ,API RESPONSE: 200
+1568604241.744167,    ,API RESPONSE: 200
+1568604241.7490194,    ,--strip punctuation
+1568604241.749154,    ,--filter gram
+1568604241.7545142,    ,--strip punctuation
+1568604241.774458,    ,--strip punctuation
+1568604241.7848597,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568604241.7952638,    ,--filter gram
+1568604241.8269851,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568604241.8270996,    ,"--word counter, shop_id: 21155263"
+1568604241.8586988,    ,"--word counter, shop_id: 21155083"
+1568604241.877367,    ,--filter gram
+1568604241.8778548,    ,--filter gram
+1568604241.8784435,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'use', 'count': 102}]"
+1568604241.8789728,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'print', 'count': 48}, {'word': 'created', 'count': 48}]"
+1568604243.261502,    ,API RESPONSE: 200
+1568604243.2615547,    ,API RESPONSE: 200
+1568604243.2629535,    ,--strip punctuation
+1568604243.263018,    ,--strip punctuation
+1568604243.2726052,    ,--filter gram
+1568604243.272851,    ,--filter gram
+1568604243.27309,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'files', 'count': 50}, {'word': 'svg', 'count': 50}, {'word': 'asap', 'count': 25}, {'word': 'issue', 'count': 25}]"
+1568604243.2731352,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'charm', 'count': 13}]"
+1568604243.2739105,    ,--read distros
+1568604243.2739773,    ,== DISTRIBUTIONS ==
+1568604243.2740397,    ,"SHOP DellaSvg, ID 21165865 = (svg:124, starbucks:39, mickey:34, disney:30, file:22)"
+1568604243.274092,    ,"SHOP VintageStyleSigns, ID 21165655 = (ready:25, guage:25, 20:25, 11.75:25, drilled:25)"
+1568604243.2741392,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, state:8, inside:8, printa:7, time:7)"
+1568604243.2741854,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, durable:11, g/m²)).::11, made:11)"
+1568604243.2742295,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, use:102)"
+1568604243.274275,    ,"SHOP Roseobelle, ID 21159771 = (dishwasher:25, 11oz:25, mug:24, mughandmade:24, safe.handmade:16)"
+1568604243.2743213,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cricut:30)"
+1568604243.2743642,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, print:48, created:48)"
+1568604243.2744036,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, files:50, svg:50, asap:25, issue:25)"
+1568604243.2744417,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, charm:13)"
+1568604243.2744794,    , 
+1568604243.2745175,    ,--save
+1568604243.2745612,    ,make ./data/distribution_1568604243$1568604237.csv
+1568604250.5253773,    ,--main 'scraper.py'
+1568604250.525482,    ,--get key
+1568604250.5255883,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568604258.1099522,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568604258.1122143,    ,"Shop ID: 21165865, Shop Name: DellaSvg, Active Listings: 27, Count: 1"
+1568604258.1123154,    ,"Shop ID: 21165655, Shop Name: VintageStyleSigns, Active Listings: 35, Count: 2"
+1568604258.1123965,    , 
+1568604268.3511631,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568604268.3530152,    , 
+1568604276.7191236,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568604276.7203228,    , 
+1568604280.6014054,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568604280.6040535,    ,"Shop ID: 21163389, Shop Name: Sherwoodmore, Active Listings: 27, Count: 3"
+1568604280.6042423,    , 
+1568604284.740178,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568604284.7416263,    , 
+1568604289.7153103,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568604289.7177622,    ,"Shop ID: 21162583, Shop Name: PodMode, Active Listings: 31, Count: 4"
+1568604289.7179036,    , 
+1568604294.4482548,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568604294.449671,    ,"Shop ID: 21162039, Shop Name: SmartSVGDesigns, Active Listings: 121, Count: 5"
+1568604294.4497457,    , 
+1568604299.1256063,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568604299.1267,    , 
+1568604303.2332187,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568604303.2360637,    , 
+1568604309.7078416,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568604309.7122347,    , 
+1568604315.4551334,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568604315.4593172,    , 
+1568604319.7179544,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568604319.7201538,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 6"
+1568604319.7202783,    , 
+1568604323.50199,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568604323.5035284,    , 
+1568604327.1797037,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568604327.1818445,    , 
+1568604330.9836385,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568604330.9854152,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 7"
+1568604330.9854949,    , 
+1568604335.5238447,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568604335.524984,    , 
+1568604338.839904,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568604338.8417463,    , 
+1568604344.0757415,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568604344.0783105,    , 
+1568604348.0288656,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568604348.030808,    ,"Shop ID: 21157113, Shop Name: ShirtsWorks, Active Listings: 26, Count: 8"
+1568604348.0309086,    , 
+1568604352.38961,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568604352.3914158,    , 
+1568604358.4588425,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568604358.460998,    , 
+1568604367.9393144,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568604367.9409945,    , 
+1568604371.9420187,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568604371.944244,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 9"
+1568604371.9443398,    , 
+1568604375.628331,    ,"---- API response code: <Response [200]>, Limit: 1200, Offset: 1150"
+1568604375.6316428,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 10"
+1568604375.6318588,    , 
+1568604375.6320462,    , 
+1568604375.6324117,    ,"shop: DellaSvg, id: 21165865 active listings: 27"
+1568604375.6326146,    ,"shop: VintageStyleSigns, id: 21165655 active listings: 35"
+1568604375.6328022,    ,"shop: Sherwoodmore, id: 21163389 active listings: 27"
+1568604375.6329744,    ,"shop: PodMode, id: 21162583 active listings: 31"
+1568604375.6331584,    ,"shop: SmartSVGDesigns, id: 21162039 active listings: 121"
+1568604375.633355,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568604375.633543,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568604375.633722,    ,"shop: ShirtsWorks, id: 21157113 active listings: 26"
+1568604375.633937,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568604375.6341162,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568604375.6343033,    , 
+1568604375.6344812,    ,--save
+1568604375.634728,    ,make ./data/shops_1568604375.csv
+1568604375.7401118,    ,"--'main, analyzer.py'"
+1568604375.7402072,    ,--get key
+1568604375.740298,    ,--get recent run
+1568604375.7404194,    ,timestamp: 1568604375
+1568604375.7404556,    ,"--get shops, pv_timestamp: 1568604375"
+1568604375.7405493,    ,--threader
+1568604375.742421,    ,"--word counter, shop_id: 21165655"
+1568604375.742579,    ,"--word counter, shop_id: 21165865"
+1568604375.7431445,    ,"--word counter, shop_id: 21162583"
+1568604375.7432663,    ,"--word counter, shop_id: 21163389"
+1568604376.6527333,    ,API RESPONSE: 200
+1568604376.6549933,    ,--strip punctuation
+1568604376.6595147,    ,--filter gram
+1568604376.6618059,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'ready', 'count': 25}, {'word': 'guage', 'count': 25}, {'word': 'holes', 'count': 25}, {'word': 'diameter*made', 'count': 25}, {'word': 'years', 'count': 25}]"
+1568604376.6633265,    ,API RESPONSE: 200
+1568604376.6651714,    ,API RESPONSE: 200
+1568604376.6659298,    ,--strip punctuation
+1568604376.671352,    ,"--word counter, shop_id: 21162039"
+1568604376.6717248,    ,--strip punctuation
+1568604376.678369,    ,--filter gram
+1568604376.6789238,    ,--filter gram
+1568604376.6791043,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'state', 'count': 8}, {'word': 'inside', 'count': 8}, {'word': 'time', 'count': 7}, {'word': 'printa', 'count': 7}]"
+1568604376.6797674,    ,"--word counter, shop_id: 21159771"
+1568604376.6798425,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 124}, {'word': 'starbucks', 'count': 39}, {'word': 'mickey', 'count': 34}, {'word': 'disney', 'count': 30}, {'word': 'file', 'count': 22}]"
+1568604376.6834226,    ,"--word counter, shop_id: 21158587"
+1568604376.6854382,    ,API RESPONSE: 200
+1568604376.686749,    ,--strip punctuation
+1568604376.7096503,    ,--filter gram
+1568604376.7102954,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'made', 'count': 11}, {'word': 'durable', 'count': 11}, {'word': 'fabric', 'count': 11}]"
+1568604376.7108533,    ,"--word counter, shop_id: 21157113"
+1568604377.4647355,    ,API RESPONSE: 200
+1568604377.467568,    ,--strip punctuation
+1568604377.4733036,    ,API RESPONSE: 200
+1568604377.4752812,    ,--filter gram
+1568604377.4753578,    ,--strip punctuation
+1568604377.5338645,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': 'dishwasher', 'count': 25}, {'word': '11oz', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568604377.5451024,    ,"--word counter, shop_id: 21155263"
+1568604377.5451577,    ,--filter gram
+1568604377.5473523,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'file', 'count': 102}]"
+1568604377.5480857,    ,"--word counter, shop_id: 21155083"
+1568604377.5507271,    ,API RESPONSE: 200
+1568604377.5516949,    ,--strip punctuation
+1568604377.5573227,    ,API RESPONSE: 200
+1568604377.5588315,    ,--filter gram
+1568604377.5588593,    ,--strip punctuation
+1568604377.5898094,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cut', 'count': 30}]"
+1568604377.6057043,    ,--filter gram
+1568604377.6060975,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'created', 'count': 48}, {'word': 'print', 'count': 48}]"
+1568604378.4945328,    ,API RESPONSE: 200
+1568604378.4953191,    ,--strip punctuation
+1568604378.5033467,    ,--filter gram
+1568604378.5036407,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568604378.5068042,    ,API RESPONSE: 200
+1568604378.507627,    ,--strip punctuation
+1568604378.5104356,    ,--filter gram
+1568604378.510523,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'satisfaction', 'count': 25}, {'word': 'automatically', 'count': 25}]"
+1568604378.510756,    ,--read distros
+1568604378.5108175,    ,== DISTRIBUTIONS ==
+1568604378.5108633,    ,"SHOP DellaSvg, ID 21165865 = (svg:124, starbucks:39, mickey:34, disney:30, file:22)"
+1568604378.5109003,    ,"SHOP VintageStyleSigns, ID 21165655 = (ready:25, guage:25, holes:25, diameter*made:25, years:25)"
+1568604378.5109355,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, state:8, inside:8, time:7, printa:7)"
+1568604378.5109696,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, made:11, durable:11, fabric:11)"
+1568604378.511005,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, file:102)"
+1568604378.5110393,    ,"SHOP Roseobelle, ID 21159771 = (dishwasher:25, 11oz:25, mughandmade:24, mug:24, safe.handmade:16)"
+1568604378.511072,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cut:30)"
+1568604378.511105,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, created:48, print:48)"
+1568604378.5111368,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, svg:50, files:50, satisfaction:25, automatically:25)"
+1568604378.511169,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, necklace:13)"
+1568604378.5111997,    , 
+1568604378.5112498,    ,--save
+1568604378.5113058,    ,make ./data/distribution_1568604378$1568604375.csv
+1568604391.2078118,    ,--main 'scraper.py'
+1568604391.207901,    ,--get key
+1568604391.2080455,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568604395.324491,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568604395.3253803,    ,"Shop ID: 21165865, Shop Name: DellaSvg, Active Listings: 27, Count: 1"
+1568604395.3254673,    , 
+1568604399.1747603,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568604399.1775112,    ,"Shop ID: 21165655, Shop Name: VintageStyleSigns, Active Listings: 35, Count: 2"
+1568604399.177672,    , 
+1568604403.5148113,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568604403.5158546,    , 
+1568604409.708226,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568604409.7099786,    ,"Shop ID: 21163389, Shop Name: Sherwoodmore, Active Listings: 27, Count: 3"
+1568604409.7100675,    , 
+1568604413.558261,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568604413.559384,    , 
+1568604417.0976532,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568604417.1005518,    ,"Shop ID: 21162583, Shop Name: PodMode, Active Listings: 31, Count: 4"
+1568604417.1006277,    , 
+1568604420.6726377,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568604420.6736295,    ,"Shop ID: 21162039, Shop Name: SmartSVGDesigns, Active Listings: 121, Count: 5"
+1568604420.6736848,    , 
+1568604426.0537293,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568604426.0563216,    , 
+1568604429.537832,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568604429.5410504,    , 
+1568604433.4952502,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568604433.496509,    , 
+1568604437.2734258,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568604437.2753997,    , 
+1568604441.0028963,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568604441.005731,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 6"
+1568604441.005849,    , 
+1568604446.9778678,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568604446.979619,    , 
+1568604450.8123,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568604450.81756,    , 
+1568604454.637224,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568604454.639397,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 7"
+1568604454.6395342,    , 
+1568604458.0002637,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568604458.0016665,    , 
+1568604464.9554563,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568604464.9591882,    , 
+1568604468.842804,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568604468.8463914,    , 
+1568604473.147326,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568604473.151451,    ,"Shop ID: 21157113, Shop Name: ShirtsWorks, Active Listings: 26, Count: 8"
+1568604473.1517282,    , 
+1568604478.5666873,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568604478.5687206,    , 
+1568604485.4360683,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568604485.4375415,    , 
+1568604489.7087996,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568604489.7125647,    , 
+1568604494.054091,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568604494.0552843,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 9"
+1568604494.0553632,    , 
+1568604497.7541184,    ,"---- API response code: <Response [200]>, Limit: 1200, Offset: 1150"
+1568604497.756041,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 10"
+1568604497.7561536,    , 
+1568604497.7562335,    , 
+1568604497.7563872,    ,"shop: DellaSvg, id: 21165865 active listings: 27"
+1568604497.7564766,    ,"shop: VintageStyleSigns, id: 21165655 active listings: 35"
+1568604497.7566037,    ,"shop: Sherwoodmore, id: 21163389 active listings: 27"
+1568604497.7567217,    ,"shop: PodMode, id: 21162583 active listings: 31"
+1568604497.7568038,    ,"shop: SmartSVGDesigns, id: 21162039 active listings: 121"
+1568604497.7568762,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568604497.7569618,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568604497.757088,    ,"shop: ShirtsWorks, id: 21157113 active listings: 26"
+1568604497.7571943,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568604497.7572706,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568604497.7573392,    , 
+1568604497.7574356,    ,--save
+1568604497.757594,    ,make ./data/shops_1568604497.csv
+1568604497.867184,    ,"--'main, analyzer.py'"
+1568604497.8672717,    ,--get key
+1568604497.8674004,    ,--get recent run
+1568604497.8675423,    ,timestamp: 1568604497
+1568604497.8676121,    ,"--get shops, pv_timestamp: 1568604497"
+1568604497.867793,    ,--threader
+1568604497.8698368,    ,"--word counter, shop_id: 21165865"
+1568604497.8704135,    ,"--word counter, shop_id: 21162583"
+1568604497.870782,    ,"--word counter, shop_id: 21165655"
+1568604497.8709483,    ,"--word counter, shop_id: 21163389"
+1568604498.6178548,    ,API RESPONSE: 200
+1568604498.619237,    ,--strip punctuation
+1568604498.6308982,    ,--filter gram
+1568604498.6311843,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 124}, {'word': 'starbucks', 'count': 39}, {'word': 'mickey', 'count': 34}, {'word': 'disney', 'count': 30}, {'word': 'file', 'count': 22}]"
+1568604498.6314166,    ,"--word counter, shop_id: 21162039"
+1568604498.6370962,    ,API RESPONSE: 200
+1568604498.6376662,    ,--strip punctuation
+1568604498.6442435,    ,--filter gram
+1568604498.6446242,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'inside', 'count': 8}, {'word': 'state', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568604498.6451137,    ,"--word counter, shop_id: 21159771"
+1568604498.660943,    ,API RESPONSE: 200
+1568604498.6614203,    ,--strip punctuation
+1568604498.6631696,    ,--filter gram
+1568604498.663545,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'sign*pre', 'count': 25}, {'word': 'drilled', 'count': 25}, {'word': 'guage', 'count': 25}, {'word': 'years', 'count': 25}, {'word': '*powder', 'count': 25}]"
+1568604498.663758,    ,"--word counter, shop_id: 21158587"
+1568604498.665876,    ,API RESPONSE: 200
+1568604498.6665552,    ,--strip punctuation
+1568604498.6902518,    ,--filter gram
+1568604498.6908574,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'g/m²)).:', 'count': 11}, {'word': 'polyester', 'count': 11}, {'word': 'fabric', 'count': 11}]"
+1568604498.6914306,    ,"--word counter, shop_id: 21157113"
+1568604499.2984273,    ,API RESPONSE: 200
+1568604499.3020694,    ,--strip punctuation
+1568604499.374399,    ,--filter gram
+1568604499.374702,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'use', 'count': 102}]"
+1568604499.3751795,    ,"--word counter, shop_id: 21155263"
+1568604499.416582,    ,API RESPONSE: 200
+1568604499.417654,    ,--strip punctuation
+1568604499.4274755,    ,--filter gram
+1568604499.4278145,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568604499.4283285,    ,"--word counter, shop_id: 21155083"
+1568604499.4376788,    ,API RESPONSE: 200
+1568604499.438394,    ,--strip punctuation
+1568604499.4402847,    ,--filter gram
+1568604499.440456,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mughandmade', 'count': 24}, {'word': 'mug', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568604499.4542425,    ,API RESPONSE: 200
+1568604499.45562,    ,--strip punctuation
+1568604499.5090287,    ,--filter gram
+1568604499.5094078,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'print', 'count': 48}, {'word': 'created', 'count': 48}]"
+1568604500.9002872,    ,API RESPONSE: 200
+1568604500.9015734,    ,--strip punctuation
+1568604500.9075036,    ,--filter gram
+1568604500.9083924,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'instantly', 'count': 25}, {'word': 'cutting', 'count': 25}]"
+1568604500.9087079,    ,API RESPONSE: 200
+1568604500.9093754,    ,--strip punctuation
+1568604500.9132066,    ,--filter gram
+1568604500.9134254,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568604500.9137495,    ,--read distros
+1568604500.9138002,    ,== DISTRIBUTIONS ==
+1568604500.9138458,    ,"SHOP DellaSvg, ID 21165865 = (svg:124, starbucks:39, mickey:34, disney:30, file:22)"
+1568604500.9138951,    ,"SHOP VintageStyleSigns, ID 21165655 = (sign*pre:25, drilled:25, guage:25, years:25, *powder:25)"
+1568604500.913932,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, inside:8, state:8, printa:7, time:7)"
+1568604500.9139688,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, g/m²)).::11, polyester:11, fabric:11)"
+1568604500.9140046,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, use:102)"
+1568604500.9140384,    ,"SHOP Roseobelle, ID 21159771 = (11oz:25, dishwasher:25, mughandmade:24, mug:24, safe.handmade:16)"
+1568604500.9140718,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cricut:30)"
+1568604500.9141052,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, print:48, created:48)"
+1568604500.9141378,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, svg:50, files:50, instantly:25, cutting:25)"
+1568604500.9141698,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, necklace:13)"
+1568604500.9142003,    , 
+1568604500.9142308,    ,--save
+1568604500.9142652,    ,make ./data/distribution_1568604500$1568604497.csv
+1568604523.2651308,    ,--main 'scraper.py'
+1568604523.26522,    ,--get key
+1568604523.2653458,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568604528.183792,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568604528.1843953,    ,"Shop ID: 21165865, Shop Name: DellaSvg, Active Listings: 27, Count: 1"
+1568604528.1844566,    , 
+1568604532.445109,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568604532.4467816,    ,"Shop ID: 21165655, Shop Name: VintageStyleSigns, Active Listings: 35, Count: 2"
+1568604532.4468927,    , 
+1568604537.3718941,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568604537.3751416,    , 
+1568604542.4690866,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568604542.4712787,    ,"Shop ID: 21163389, Shop Name: Sherwoodmore, Active Listings: 27, Count: 3"
+1568604542.4714422,    , 
+1568604547.5564306,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568604547.5574305,    , 
+1568604552.6311853,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568604552.6323106,    ,"Shop ID: 21162583, Shop Name: PodMode, Active Listings: 31, Count: 4"
+1568604552.6324086,    , 
+1568604556.6535017,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568604556.6552489,    ,"Shop ID: 21162039, Shop Name: SmartSVGDesigns, Active Listings: 121, Count: 5"
+1568604556.655344,    , 
+1568604560.9008994,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568604560.9024904,    , 
+1568604565.9603086,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568604565.9620256,    , 
+1568604569.7266603,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568604569.7292707,    , 
+1568604574.8004823,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568604574.8031769,    , 
+1568604578.6183083,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568604578.619412,    ,"Shop ID: 21159771, Shop Name: Roseobelle, Active Listings: 32, Count: 6"
+1568604578.619487,    , 
+1568604582.4535463,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568604582.4553182,    , 
+1568604586.8521738,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568604586.8544633,    , 
+1568604590.196068,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568604590.1988785,    ,"Shop ID: 21158587, Shop Name: GregorySvg, Active Listings: 28, Count: 7"
+1568604590.1990573,    , 
+1568604594.1217275,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568604594.12279,    , 
+1568604599.3678405,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568604599.3689702,    , 
+1568604609.7064614,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568604609.709409,    , 
+1568604618.5522182,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568604618.5537245,    ,"Shop ID: 21157113, Shop Name: ShirtsWorks, Active Listings: 26, Count: 8"
+1568604618.5537953,    , 
+1568604622.7163348,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568604622.7198336,    , 
+1568604626.6091385,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568604626.6124752,    , 
+1568604630.7071302,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568604630.7120798,    , 
+1568604634.9395792,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568604634.9410894,    ,"Shop ID: 21155263, Shop Name: CathlenBalonArtSVG, Active Listings: 28, Count: 9"
+1568604634.9411433,    , 
+1568604639.3174713,    ,"---- API response code: <Response [200]>, Limit: 1200, Offset: 1150"
+1568604639.319351,    ,"Shop ID: 21155083, Shop Name: DELLAJewelryDesigns, Active Listings: 34, Count: 10"
+1568604639.3194742,    , 
+1568604639.3195748,    , 
+1568604639.3199654,    ,"shop: DellaSvg, id: 21165865 active listings: 27"
+1568604639.3200784,    ,"shop: VintageStyleSigns, id: 21165655 active listings: 35"
+1568604639.3201692,    ,"shop: Sherwoodmore, id: 21163389 active listings: 27"
+1568604639.3202522,    ,"shop: PodMode, id: 21162583 active listings: 31"
+1568604639.3203328,    ,"shop: SmartSVGDesigns, id: 21162039 active listings: 121"
+1568604639.3204112,    ,"shop: Roseobelle, id: 21159771 active listings: 32"
+1568604639.3204894,    ,"shop: GregorySvg, id: 21158587 active listings: 28"
+1568604639.3205662,    ,"shop: ShirtsWorks, id: 21157113 active listings: 26"
+1568604639.320642,    ,"shop: CathlenBalonArtSVG, id: 21155263 active listings: 28"
+1568604639.320746,    ,"shop: DELLAJewelryDesigns, id: 21155083 active listings: 34"
+1568604639.3208852,    , 
+1568604639.320994,    ,--save
+1568604639.3211155,    ,make ./data/shops_1568604639.csv
+1568604639.4286108,    ,"--'main, analyzer.py'"
+1568604639.4286964,    ,--get key
+1568604639.4287672,    ,--get recent run
+1568604639.4288561,    ,timestamp: 1568604639
+1568604639.4288921,    ,"--get shops, pv_timestamp: 1568604639"
+1568604639.4289782,    ,--threader
+1568604639.4310129,    ,"--word counter, shop_id: 21163389"
+1568604639.431443,    ,"--word counter, shop_id: 21165655"
+1568604639.4317071,    ,"--word counter, shop_id: 21162583"
+1568604639.4318686,    ,"--word counter, shop_id: 21165865"
+1568604642.3807738,    ,API RESPONSE: 200
+1568604642.3828974,    ,API RESPONSE: 200
+1568604642.3851037,    ,API RESPONSE: 200
+1568604642.385584,    ,API RESPONSE: 200
+1568604642.3880029,    ,--strip punctuation
+1568604642.3881242,    ,--strip punctuation
+1568604642.3881938,    ,--strip punctuation
+1568604642.3949718,    ,--strip punctuation
+1568604642.4002054,    ,--filter gram
+1568604642.4002695,    ,--filter gram
+1568604642.4208703,    ,--filter gram
+1568604642.420939,    ,"     Top Terms: [{'shop_id': '21165655', 'shop_name': 'VintageStyleSigns'}, {'word': 'hang*measures', 'count': 25}, {'word': '20', 'count': 25}, {'word': '11.75', 'count': 25}, {'word': 'guage', 'count': 25}, {'word': 'holes', 'count': 25}]"
+1568604642.4217474,    ,--filter gram
+1568604642.4218225,    ,"     Top Terms: [{'shop_id': '21163389', 'shop_name': 'Sherwoodmore'}, {'word': 'building', 'count': 9}, {'word': 'inside', 'count': 8}, {'word': 'state', 'count': 8}, {'word': 'printa', 'count': 7}, {'word': 'time', 'count': 7}]"
+1568604642.422358,    ,"     Top Terms: [{'shop_id': '21165865', 'shop_name': 'DellaSvg'}, {'word': 'svg', 'count': 124}, {'word': 'starbucks', 'count': 39}, {'word': 'mickey', 'count': 34}, {'word': 'disney', 'count': 30}, {'word': 'file', 'count': 22}]"
+1568604642.4226189,    ,"     Top Terms: [{'shop_id': '21162583', 'shop_name': 'PodMode'}, {'word': '100%', 'count': 13}, {'word': 'runs', 'count': 12}, {'word': 'polyester', 'count': 11}, {'word': 'fabric', 'count': 11}, {'word': 'durable', 'count': 11}]"
+1568604642.4228864,    ,"--word counter, shop_id: 21162039"
+1568604642.4251308,    ,"--word counter, shop_id: 21159771"
+1568604642.4269423,    ,"--word counter, shop_id: 21158587"
+1568604642.427001,    ,"--word counter, shop_id: 21157113"
+1568604643.397978,    ,API RESPONSE: 200
+1568604643.4025087,    ,--strip punctuation
+1568604643.402861,    ,API RESPONSE: 200
+1568604643.4074087,    ,API RESPONSE: 200
+1568604643.4106035,    ,API RESPONSE: 200
+1568604643.4107766,    ,--strip punctuation
+1568604643.4114661,    ,--strip punctuation
+1568604643.4115188,    ,--filter gram
+1568604643.437477,    ,"     Top Terms: [{'shop_id': '21159771', 'shop_name': 'Roseobelle'}, {'word': '11oz', 'count': 25}, {'word': 'dishwasher', 'count': 25}, {'word': 'mug', 'count': 24}, {'word': 'mughandmade', 'count': 24}, {'word': 'safe.handmade', 'count': 16}]"
+1568604643.4427822,    ,--strip punctuation
+1568604643.5114415,    ,--filter gram
+1568604643.511546,    ,"--word counter, shop_id: 21155263"
+1568604643.523301,    ,--filter gram
+1568604643.5342748,    ,"     Top Terms: [{'shop_id': '21157113', 'shop_name': 'ShirtsWorks'}, {'word': 'cotton', 'count': 74}, {'word': 'image', 'count': 72}, {'word': 'unisex', 'count': 49}, {'word': 'created', 'count': 48}, {'word': 'print', 'count': 48}]"
+1568604643.5352025,    ,"     Top Terms: [{'shop_id': '21158587', 'shop_name': 'GregorySvg'}, {'word': 'svg', 'count': 135}, {'word': 'files', 'count': 55}, {'word': 'superhero', 'count': 54}, {'word': 'logo', 'count': 36}, {'word': 'cricut', 'count': 30}]"
+1568604643.5432208,    ,"--word counter, shop_id: 21155083"
+1568604643.5433118,    ,--filter gram
+1568604643.5456822,    ,"     Top Terms: [{'shop_id': '21162039', 'shop_name': 'SmartSVGDesigns'}, {'word': 'svg', 'count': 154}, {'word': 'silhouette', 'count': 149}, {'word': '1', 'count': 125}, {'word': 'cricut', 'count': 123}, {'word': 'use', 'count': 102}]"
+1568604644.4300938,    ,API RESPONSE: 200
+1568604644.4315038,    ,--strip punctuation
+1568604644.436655,    ,--filter gram
+1568604644.4368532,    ,"     Top Terms: [{'shop_id': '21155263', 'shop_name': 'CathlenBalonArtSVG'}, {'word': 'halloween', 'count': 76}, {'word': 'svg', 'count': 50}, {'word': 'files', 'count': 50}, {'word': 'digital***', 'count': 25}, {'word': 'automatically', 'count': 25}]"
+1568604644.8306417,    ,API RESPONSE: 200
+1568604644.8319995,    ,--strip punctuation
+1568604644.8372076,    ,--filter gram
+1568604644.8375242,    ,"     Top Terms: [{'shop_id': '21155083', 'shop_name': 'DELLAJewelryDesigns'}, {'word': 'gold', 'count': 35}, {'word': 'hoop', 'count': 22}, {'word': 'plated', 'count': 21}, {'word': 'beaded', 'count': 15}, {'word': 'necklace', 'count': 13}]"
+1568604644.8381083,    ,--read distros
+1568604644.838198,    ,== DISTRIBUTIONS ==
+1568604644.8382845,    ,"SHOP DellaSvg, ID 21165865 = (svg:124, starbucks:39, mickey:34, disney:30, file:22)"
+1568604644.8383656,    ,"SHOP VintageStyleSigns, ID 21165655 = (hang*measures:25, 20:25, 11.75:25, guage:25, holes:25)"
+1568604644.8384516,    ,"SHOP Sherwoodmore, ID 21163389 = (building:9, inside:8, state:8, printa:7, time:7)"
+1568604644.8385472,    ,"SHOP PodMode, ID 21162583 = (100%:13, runs:12, polyester:11, fabric:11, durable:11)"
+1568604644.8386445,    ,"SHOP SmartSVGDesigns, ID 21162039 = (svg:154, silhouette:149, 1:125, cricut:123, use:102)"
+1568604644.8387454,    ,"SHOP Roseobelle, ID 21159771 = (11oz:25, dishwasher:25, mug:24, mughandmade:24, safe.handmade:16)"
+1568604644.8388407,    ,"SHOP GregorySvg, ID 21158587 = (svg:135, files:55, superhero:54, logo:36, cricut:30)"
+1568604644.8389332,    ,"SHOP ShirtsWorks, ID 21157113 = (cotton:74, image:72, unisex:49, created:48, print:48)"
+1568604644.8390386,    ,"SHOP CathlenBalonArtSVG, ID 21155263 = (halloween:76, svg:50, files:50, digital***:25, automatically:25)"
+1568604644.8391416,    ,"SHOP DELLAJewelryDesigns, ID 21155083 = (gold:35, hoop:22, plated:21, beaded:15, necklace:13)"
+1568604644.8392267,    , 
+1568604644.839338,    ,--save
+1568604644.839434,    ,make ./data/distribution_1568604644$1568604639.csv
