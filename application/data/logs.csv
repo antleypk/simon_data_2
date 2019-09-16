@@ -357,3 +357,37 @@
 1568605079.4206426,    , 
 1568605079.420696,    ,--save
 1568605079.4207554,    ,make ./data/distribution_1568605079$1568604944.csv
+1568605280.3304036,    ,--filter gram
+1568605280.330545,    ,--get recent run
+1568605280.3306544,    ,--get key
+1568605280.3307316,    ,"--get shops, pv_timestamp: 1568572639"
+1568605280.3308895,    ,--strip punctuation
+1568605366.487366,    ,--filter gram
+1568605366.487548,    ,--get recent run
+1568605366.487681,    ,--get key
+1568605366.4877837,    ,"--get shops, pv_timestamp: 1568572639"
+1568605366.4879508,    ,--strip punctuation
+1568605382.5803683,    ,--filter gram
+1568605382.5805326,    ,--get recent run
+1568605382.5806456,    ,--get key
+1568605382.580739,    ,"--get shops, pv_timestamp: 1568572639"
+1568605382.5809674,    ,--strip punctuation
+1568605446.7872875,    ,--get key
+1568605446.7874002,    ,"--get shops, pv_timestamp: 1568572639"
+1568605446.7874675,    ,FILE NOT FOUND ERROR!! Did you provide an incorrect timestamp?
+1568605446.7875204,    , 
+1568605460.1649938,    ,--get key
+1568605460.1651537,    ,"--get shops, pv_timestamp: 1568572639"
+1568605590.3620675,    ,--get key
+1568605590.362178,    ,"--get shops, pv_timestamp: 1568572639"
+1568605590.3622575,    ,--strip punctuation
+1568605609.9238894,    ,--filter gram
+1568605609.9240215,    ,--get recent run
+1568605609.9241192,    ,--get key
+1568605609.924194,    ,"--get shops, pv_timestamp: 1568572639"
+1568605609.9243445,    ,--strip punctuation
+1568605641.409758,    ,--filter gram
+1568605641.40992,    ,--get recent run
+1568605641.4100432,    ,--get key
+1568605641.4101334,    ,"--get shops, pv_timestamp: 1568572639"
+1568605641.4103167,    ,--strip punctuation
