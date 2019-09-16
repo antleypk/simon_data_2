@@ -123,6 +123,7 @@ def word_counter(shop):
         return_list = []
         return_frame = {}
         return_frame["shop_id"] = shop_id
+        return_frame["shope_name"] = shop["name"]
         return_list.append(return_frame)
 
         for w in filter_gram(count_words(word_set, clean_words)):
@@ -175,7 +176,7 @@ def save(distributions, save_path, pv_timestamp):
             writer.writerow(
                 [
                     "id"
-                    ,"shop_id"
+                    ,"distribution"
                     ,"e_time"
                 ]
             )
