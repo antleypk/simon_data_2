@@ -162,9 +162,9 @@ def filter_gram(pv_word_gram):
 
 def read_distros(pv_list):
     scraper.pprint("--read distros")
-    scraper.pprint("== DISTRIBUTIONS ==")
+    scraper.pprint("== DISTRIBUTIONS == [TOP 5 WORDS]")
     for i in pv_list:
-        tmp_string = 'SHOP {}, ID {} = ({}:{}, {}:{}, {}:{}, {}:{}, {}:{})'.format(i[0]['shop_name'],i[0]['shop_id'], i[1]['word'], i[1]['count'],i[2]['word'], i[2]['count'], i[3]['word'], i[3]['count'], i[4]['word'], i[4]['count'], i[5]['word'], i[5]['count'])
+        tmp_string = '      SHOP {}, ID {} = ({}:{}, {}:{}, {}:{}, {}:{}, {}:{})'.format(i[0]['shop_name'],i[0]['shop_id'], i[1]['word'], i[1]['count'],i[2]['word'], i[2]['count'], i[3]['word'], i[3]['count'], i[4]['word'], i[4]['count'], i[5]['word'], i[5]['count'])
         scraper.pprint(tmp_string)
     scraper.pprint(' ')
     return pv_list
