@@ -157,18 +157,18 @@ def filter_gram(pv_word_gram):
 
 
 
-def read(pv_list):
+def read_dicts(pv_list):
     scraper.pprint("--read")
     for item in pv_list:
         scraper.pprint(item)
     return pv_list
 
-def save(distributions, save_path):
+def save(distributions, save_path, pv_timestamp):
     scraper.pprint("--save")
     s_t = '{}'.format(time.time())
     time_split = s_t.split('.')
     e = time_split[0]
-    lcl_path = save_path+'_{}.csv'.format(e)
+    lcl_path = save_path+'_{}${}.csv'.format(e,pv_timestamp)
     scraper.pprint('make {}'.format(lcl_path))
     with open(lcl_path, "w", newline="") as csvfile:
             writer = csv.writer(csvfile)
@@ -211,8 +211,7 @@ def main():
         lcl_distributions = threaded_counter(shops)
         for lcl in lcl_distributions:
             distributions.append(lcl)
-
-        save(read(distributions), save_path)
+        save(read_dicts(distributions), save_path, timestamp)
     else:
         scraper.pprint("Please run 'scraper.py' first.")
 
