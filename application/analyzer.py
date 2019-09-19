@@ -107,6 +107,8 @@ def word_counter(shop):
     r = requests.get(url, headers=headers)
     r_status=r.status_code
     scraper.pprint("API RESPONSE: {}".format(r_status))
+    
+    return_list = []
     if r_status == 200:
         content = r.content
         d_content = content.decode("utf-8")
@@ -122,7 +124,7 @@ def word_counter(shop):
         word_set = get_unique_words(clean_words)
         
         
-        return_list = []
+        
         return_frame = {}
         return_frame["shop_id"] = shop_id
         return_frame["shop_name"] = shop["name"]

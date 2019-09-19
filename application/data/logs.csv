@@ -391,3 +391,219 @@
 1568605641.4100432,    ,--get key
 1568605641.4101334,    ,"--get shops, pv_timestamp: 1568572639"
 1568605641.4103167,    ,--strip punctuation
+1568917926.0809846,    ,--main 'scraper.py'
+1568917926.0810678,    ,--get key
+1568917926.0811777,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568917926.318693,    ,"---- API response code: <Response [403]>, Limit: 50, Offset: 0"
+1568917926.456126,    ,"--'main, analyzer.py'"
+1568917926.4561875,    ,--get key
+1568917926.4562638,    ,--get recent run
+1568917926.4563272,    ,timestamp: 1568604944
+1568917926.4563663,    ,"--get shops, pv_timestamp: 1568604944"
+1568917926.456461,    ,--threader
+1568917926.4587758,    ,"--word counter, shop_id: 21165865"
+1568917926.4595842,    ,"--word counter, shop_id: 21163389"
+1568917926.4610066,    ,"--word counter, shop_id: 21165655"
+1568917926.462729,    ,"--word counter, shop_id: 21162583"
+1568917926.6867738,    ,API RESPONSE: 403
+1568917926.6870558,    ,"--word counter, shop_id: 21162039"
+1568917926.696345,    ,API RESPONSE: 403
+1568917926.696644,    ,"--word counter, shop_id: 21159771"
+1568917926.7032971,    ,API RESPONSE: 403
+1568917926.7035165,    ,"--word counter, shop_id: 21158587"
+1568917926.7108002,    ,API RESPONSE: 403
+1568917926.7109973,    ,"--word counter, shop_id: 21157113"
+1568917926.8580127,    ,API RESPONSE: 403
+1568917926.8582878,    ,"--word counter, shop_id: 21155263"
+1568917926.8957834,    ,API RESPONSE: 403
+1568917926.8962336,    ,API RESPONSE: 403
+1568917926.8964245,    ,"--word counter, shop_id: 21155083"
+1568917926.9117444,    ,API RESPONSE: 403
+1568917926.9996,    ,API RESPONSE: 403
+1568917927.0658379,    ,API RESPONSE: 403
+1568918007.6557167,    ,--main 'scraper.py'
+1568918007.655824,    ,--get key
+1568918007.6559255,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568918007.8739753,    ,"---- API response code: <Response [403]>, Limit: 50, Offset: 0"
+1568918008.002874,    ,"--'main, analyzer.py'"
+1568918008.0029511,    ,--get key
+1568918008.0030363,    ,--get recent run
+1568918008.0031073,    ,timestamp: 1568604944
+1568918008.0031407,    ,"--get shops, pv_timestamp: 1568604944"
+1568918008.003236,    ,--threader
+1568918008.0051024,    ,"--word counter, shop_id: 21165865"
+1568918008.005567,    ,"--word counter, shop_id: 21162583"
+1568918008.005677,    ,"--word counter, shop_id: 21165655"
+1568918008.0061493,    ,"--word counter, shop_id: 21163389"
+1568918008.173461,    ,API RESPONSE: 403
+1568918008.1737933,    ,"--word counter, shop_id: 21162039"
+1568918008.1914957,    ,API RESPONSE: 403
+1568918008.192726,    ,API RESPONSE: 403
+1568918008.1929808,    ,"--word counter, shop_id: 21159771"
+1568918008.1953037,    ,"--word counter, shop_id: 21158587"
+1568918008.2003472,    ,API RESPONSE: 403
+1568918008.2005029,    ,"--word counter, shop_id: 21157113"
+1568918008.322275,    ,API RESPONSE: 403
+1568918008.3225224,    ,"--word counter, shop_id: 21155263"
+1568918008.328661,    ,API RESPONSE: 403
+1568918008.328785,    ,"--word counter, shop_id: 21155083"
+1568918008.3374522,    ,API RESPONSE: 403
+1568918008.3427863,    ,API RESPONSE: 403
+1568918008.4588199,    ,API RESPONSE: 403
+1568918008.4593208,    ,API RESPONSE: 403
+1568918008.459604,    ,--read distros
+1568918008.4597063,    ,== DISTRIBUTIONS == [TOP 5 WORDS]
+1568918260.4446821,    ,--main 'scraper.py'
+1568918260.4447498,    ,--get key
+1568918260.444831,    ,"--get shops, pv_count: 10, pv_listing_count 25"
+1568918263.3279705,    ,"---- API response code: <Response [200]>, Limit: 50, Offset: 0"
+1568918263.3284833,    , 
+1568918271.3590007,    ,"---- API response code: <Response [200]>, Limit: 100, Offset: 50"
+1568918271.3600345,    , 
+1568918276.3456347,    ,"---- API response code: <Response [200]>, Limit: 150, Offset: 100"
+1568918276.3476937,    , 
+1568918281.3749683,    ,"---- API response code: <Response [200]>, Limit: 200, Offset: 150"
+1568918281.3792865,    ,"Shop ID: 21193183, Shop Name: FunFunShirtKh, Active Listings: 43, Count: 1"
+1568918281.3795073,    , 
+1568918286.371973,    ,"---- API response code: <Response [200]>, Limit: 250, Offset: 200"
+1568918286.3746207,    , 
+1568918291.3263166,    ,"---- API response code: <Response [200]>, Limit: 300, Offset: 250"
+1568918291.328115,    , 
+1568918296.3466926,    ,"---- API response code: <Response [200]>, Limit: 350, Offset: 300"
+1568918296.3477578,    , 
+1568918301.406767,    ,"---- API response code: <Response [200]>, Limit: 400, Offset: 350"
+1568918301.4077823,    , 
+1568918306.3962,    ,"---- API response code: <Response [200]>, Limit: 450, Offset: 400"
+1568918306.3972383,    , 
+1568918311.403664,    ,"---- API response code: <Response [200]>, Limit: 500, Offset: 450"
+1568918311.4061193,    , 
+1568918315.748595,    ,"---- API response code: <Response [200]>, Limit: 550, Offset: 500"
+1568918315.7504637,    , 
+1568918321.414782,    ,"---- API response code: <Response [200]>, Limit: 600, Offset: 550"
+1568918321.4183042,    ,"Shop ID: 21189719, Shop Name: hannahrainfinegold, Active Listings: 26, Count: 2"
+1568918321.4184792,    , 
+1568918326.402063,    ,"---- API response code: <Response [200]>, Limit: 650, Offset: 600"
+1568918326.4031017,    , 
+1568918331.4218383,    ,"---- API response code: <Response [200]>, Limit: 700, Offset: 650"
+1568918331.4239814,    , 
+1568918335.7536118,    ,"---- API response code: <Response [200]>, Limit: 750, Offset: 700"
+1568918335.7568898,    , 
+1568918340.012663,    ,"---- API response code: <Response [200]>, Limit: 800, Offset: 750"
+1568918340.0136745,    , 
+1568918345.2186399,    ,"---- API response code: <Response [200]>, Limit: 850, Offset: 800"
+1568918345.2212024,    ,"Shop ID: 21187207, Shop Name: TampaCoinRings, Active Listings: 59, Count: 3"
+1568918345.2213252,    , 
+1568918351.435833,    ,"---- API response code: <Response [200]>, Limit: 900, Offset: 850"
+1568918351.4379401,    ,"Shop ID: 21186617, Shop Name: MyshirtsandmugsShop, Active Listings: 73, Count: 4"
+1568918351.4380393,    , 
+1568918355.6137626,    ,"---- API response code: <Response [200]>, Limit: 950, Offset: 900"
+1568918355.6161687,    , 
+1568918361.3432956,    ,"---- API response code: <Response [200]>, Limit: 1000, Offset: 950"
+1568918361.3463273,    , 
+1568918365.8153436,    ,"---- API response code: <Response [200]>, Limit: 1050, Offset: 1000"
+1568918365.817781,    , 
+1568918371.4385443,    ,"---- API response code: <Response [200]>, Limit: 1100, Offset: 1050"
+1568918371.4397058,    ,"Shop ID: 21184843, Shop Name: KratiTapestry, Active Listings: 27, Count: 5"
+1568918371.439781,    , 
+1568918376.4581847,    ,"---- API response code: <Response [200]>, Limit: 1150, Offset: 1100"
+1568918376.461347,    , 
+1568918381.4612098,    ,"---- API response code: <Response [200]>, Limit: 1200, Offset: 1150"
+1568918381.4637694,    ,"Shop ID: 21184515, Shop Name: SacraViaShop, Active Listings: 33, Count: 6"
+1568918381.4638855,    , 
+1568918388.2863321,    ,"---- API response code: <Response [200]>, Limit: 1250, Offset: 1200"
+1568918388.2896035,    ,"Shop ID: 21184151, Shop Name: Longbanhbeo, Active Listings: 103, Count: 7"
+1568918388.2897837,    , 
+1568918393.9458914,    ,"---- API response code: <Response [200]>, Limit: 1300, Offset: 1250"
+1568918393.9483254,    ,"Shop ID: 21184005, Shop Name: Ibrahandicrafts, Active Listings: 36, Count: 8"
+1568918393.94839,    , 
+1568918398.9756706,    ,"---- API response code: <Response [200]>, Limit: 1350, Offset: 1300"
+1568918398.9787762,    ,"Shop ID: 21183671, Shop Name: SugarPearlDesignCo, Active Listings: 30, Count: 9"
+1568918398.9789243,    , 
+1568918403.975266,    ,"---- API response code: <Response [200]>, Limit: 1400, Offset: 1350"
+1568918403.9793525,    ,"Shop ID: 21183409, Shop Name: ChrisLottShop, Active Listings: 30, Count: 10"
+1568918403.9795566,    , 
+1568918403.9797544,    , 
+1568918403.9802566,    ,"shop: FunFunShirtKh, id: 21193183 active listings: 43"
+1568918403.9804354,    ,"shop: hannahrainfinegold, id: 21189719 active listings: 26"
+1568918403.9806085,    ,"shop: TampaCoinRings, id: 21187207 active listings: 59"
+1568918403.980767,    ,"shop: MyshirtsandmugsShop, id: 21186617 active listings: 73"
+1568918403.9809327,    ,"shop: KratiTapestry, id: 21184843 active listings: 27"
+1568918403.9810936,    ,"shop: SacraViaShop, id: 21184515 active listings: 33"
+1568918403.9812515,    ,"shop: Longbanhbeo, id: 21184151 active listings: 103"
+1568918403.9814076,    ,"shop: Ibrahandicrafts, id: 21184005 active listings: 36"
+1568918403.9815764,    ,"shop: SugarPearlDesignCo, id: 21183671 active listings: 30"
+1568918403.9817355,    ,"shop: ChrisLottShop, id: 21183409 active listings: 30"
+1568918403.9818883,    , 
+1568918403.9820402,    ,--save
+1568918403.9822347,    ,make ./data/shops_1568918403.csv
+1568918404.084378,    ,"--'main, analyzer.py'"
+1568918404.0844781,    ,--get key
+1568918404.0845773,    ,--get recent run
+1568918404.0846727,    ,timestamp: 1568918403
+1568918404.0847373,    ,"--get shops, pv_timestamp: 1568918403"
+1568918404.0848665,    ,--threader
+1568918404.0867093,    ,"--word counter, shop_id: 21193183"
+1568918404.086797,    ,"--word counter, shop_id: 21189719"
+1568918404.0875442,    ,"--word counter, shop_id: 21186617"
+1568918404.0876071,    ,"--word counter, shop_id: 21187207"
+1568918405.974111,    ,API RESPONSE: 200
+1568918405.9761236,    ,--strip punctuation
+1568918406.0101304,    ,--filter gram
+1568918406.0109603,    ,API RESPONSE: 200
+1568918406.0109851,    ,"     Top Terms: [{'shop_id': '21186617', 'shop_name': 'MyshirtsandmugsShop'}, {'word': 'sleeve', 'count': 66}, {'word': 'length', 'count': 64}, {'word': 'width', 'count': 64}, {'word': 'order', 'count': 51}, {'word': 'delivery', 'count': 50}]"
+1568918406.011652,    ,API RESPONSE: 200
+1568918406.0138488,    ,--strip punctuation
+1568918406.0197756,    ,--strip punctuation
+1568918406.0353363,    ,--filter gram
+1568918406.0410306,    ,"--word counter, shop_id: 21184843"
+1568918406.0633967,    ,"     Top Terms: [{'shop_id': '21189719', 'shop_name': 'hannahrainfinegold'}, {'word': 'work', 'count': 50}, {'word': 'original', 'count': 40}, {'word': 'mind', 'count': 25}, {'word': 'though', 'count': 25}, {'word': 'one-of-a-kind', 'count': 25}]"
+1568918406.0753,    ,--filter gram
+1568918406.0755298,    ,API RESPONSE: 200
+1568918406.076699,    ,"     Top Terms: [{'shop_id': '21187207', 'shop_name': 'TampaCoinRings'}, {'word': 'chain', 'count': 148}, {'word': 'silver', 'count': 119}, {'word': 'necklace', 'count': 101}, {'word': 'steel', 'count': 97}, {'word': 'stainless', 'count': 97}]"
+1568918406.0769374,    ,--strip punctuation
+1568918406.0872452,    ,"--word counter, shop_id: 21184151"
+1568918406.0915322,    ,"--word counter, shop_id: 21184515"
+1568918406.0917237,    ,--filter gram
+1568918406.092668,    ,"     Top Terms: [{'shop_id': '21193183', 'shop_name': 'FunFunShirtKh'}, {'word': 't-shirt', 'count': 125}, {'word': 'shirt', 'count': 75}, {'word': 'shipping', 'count': 50}, {'word': 'exchange', 'count': 50}, {'word': 'international', 'count': 25}]"
+1568918406.0930462,    ,"--word counter, shop_id: 21184005"
+1568918408.336991,    ,API RESPONSE: 200
+1568918408.3407288,    ,--strip punctuation
+1568918408.3547068,    ,--filter gram
+1568918408.3565927,    ,API RESPONSE: 200
+1568918408.3575635,    ,API RESPONSE: 200
+1568918408.3575847,    ,"     Top Terms: [{'shop_id': '21184843', 'shop_name': 'KratiTapestry'}, {'word': 'wall', 'count': 119}, {'word': 'tapestry', 'count': 71}, {'word': 'mandala', 'count': 60}, {'word': 'bedspread', 'count': 57}, {'word': 'bed', 'count': 57}]"
+1568918408.3584533,    ,--strip punctuation
+1568918408.3585763,    ,--strip punctuation
+1568918408.3794286,    ,--filter gram
+1568918408.3797593,    ,"--word counter, shop_id: 21183671"
+1568918408.37988,    ,--filter gram
+1568918408.3808951,    ,"     Top Terms: [{'shop_id': '21184515', 'shop_name': 'SacraViaShop'}, {'word': 'mug', 'count': 45}, {'word': 'white', 'count': 32}, {'word': 'large', 'count': 30}, {'word': 'tea', 'count': 30}, {'word': 'ounce', 'count': 30}]"
+1568918408.3823555,    ,"     Top Terms: [{'shop_id': '21184151', 'shop_name': 'Longbanhbeo'}, {'word': 'quilt', 'count': 63}, {'word': 'soft', 'count': 50}, {'word': 'fleece', 'count': 37}, {'word': 'blanket', 'count': 36}, {'word': 'quickly.*lightweight', 'count': 25}]"
+1568918408.382596,    ,"--word counter, shop_id: 21183409"
+1568918408.382737,    ,API RESPONSE: 200
+1568918408.384003,    ,--strip punctuation
+1568918408.3924425,    ,--filter gram
+1568918408.3926044,    ,"     Top Terms: [{'shop_id': '21184005', 'shop_name': 'Ibrahandicrafts'}, {'word': ':', 'count': 28}, {'word': 'clutch', 'count': 27}, {'word': 'strap', 'count': 26}, {'word': 'designer', 'count': 25}, {'word': 'cm', 'count': 23}]"
+1568918410.3303115,    ,API RESPONSE: 200
+1568918410.3327942,    ,--strip punctuation
+1568918410.3432353,    ,API RESPONSE: 200
+1568918410.3482392,    ,--filter gram
+1568918410.348418,    ,--strip punctuation
+1568918410.348438,    ,"     Top Terms: [{'shop_id': '21183671', 'shop_name': 'SugarPearlDesignCo'}, {'word': 'doormats', 'count': 75}, {'word': 'direct', 'count': 50}, {'word': 'x', 'count': 50}, {'word': 'shake', 'count': 50}, {'word': 'one', 'count': 50}]"
+1568918410.3769853,    ,--filter gram
+1568918410.3771439,    ,"     Top Terms: [{'shop_id': '21183409', 'shop_name': 'ChrisLottShop'}, {'word': 'download', 'count': 204}, {'word': 'digital', 'count': 110}, {'word': 'files', 'count': 107}, {'word': '13', 'count': 100}, {'word': 'available', 'count': 100}]"
+1568918410.3774545,    ,--read distros
+1568918410.377521,    ,== DISTRIBUTIONS == [TOP 5 WORDS]
+1568918410.3775609,    ,"      SHOP FunFunShirtKh, ID 21193183 = (t-shirt:125, shirt:75, shipping:50, exchange:50, international:25)"
+1568918410.3776042,    ,"      SHOP hannahrainfinegold, ID 21189719 = (work:50, original:40, mind:25, though:25, one-of-a-kind:25)"
+1568918410.3776402,    ,"      SHOP TampaCoinRings, ID 21187207 = (chain:148, silver:119, necklace:101, steel:97, stainless:97)"
+1568918410.377674,    ,"      SHOP MyshirtsandmugsShop, ID 21186617 = (sleeve:66, length:64, width:64, order:51, delivery:50)"
+1568918410.377707,    ,"      SHOP KratiTapestry, ID 21184843 = (wall:119, tapestry:71, mandala:60, bedspread:57, bed:57)"
+1568918410.3777394,    ,"      SHOP SacraViaShop, ID 21184515 = (mug:45, white:32, large:30, tea:30, ounce:30)"
+1568918410.3777716,    ,"      SHOP Longbanhbeo, ID 21184151 = (quilt:63, soft:50, fleece:37, blanket:36, quickly.*lightweight:25)"
+1568918410.3778188,    ,"      SHOP Ibrahandicrafts, ID 21184005 = (::28, clutch:27, strap:26, designer:25, cm:23)"
+1568918410.3778517,    ,"      SHOP SugarPearlDesignCo, ID 21183671 = (doormats:75, direct:50, x:50, shake:50, one:50)"
+1568918410.3778837,    ,"      SHOP ChrisLottShop, ID 21183409 = (download:204, digital:110, files:107, 13:100, available:100)"
+1568918410.3779132,    , 
+1568918410.377942,    ,--save
+1568918410.3779747,    ,make ./data/distribution_1568918410$1568918403.csv
