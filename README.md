@@ -1,6 +1,14 @@
 # simon_data_2
 #take home test v2
 
+!!This program was a code test for a remote senior data engineer position. I did not have as much time as I would have liked due to having other paid activites at the time. I should have written signifigantly more tests, and made better comments with type hinting. To get your very own security key please go to.. https://www.etsy.com/developers/documentation  
+    --This program finds a configurable amount of stores on etsy that have a configureable amount of items for sale, listings.
+    --Then the program analyzes all of the words used, removes stop words, https://en.wikipedia.org/wiki/Stop_words and then finds the most common words used by each company.
+    --The program works in a decoupled manner.
+        --The first script runs and gathers the companies, and saves them to csv
+        --The second script analyzing the listings for the occurences of the words. 
+
+
 Welcome to the etsy store analyzer v1.1.0
 
 -- Operational Notes
